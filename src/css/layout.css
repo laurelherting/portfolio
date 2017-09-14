@@ -21,6 +21,18 @@
 
 body {
    background: #191919;
- }
+}
 
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
 
+header {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
