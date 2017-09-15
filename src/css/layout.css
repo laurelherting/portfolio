@@ -23,6 +23,13 @@ body {
    background: #191919;
 }
 
+.loading {
+   background: #191919 url(../images/loader.gif) no-repeat center center;
+   margin: 0 auto;
+   width: 100%;
+   min-height: 500px;
+   height: 100%;
+}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -32,7 +39,9 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
+   background: #161415 url(../images/background.jpg) no-repeat top center;
    background-size: cover !important;
+   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
