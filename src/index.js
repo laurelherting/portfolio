@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './routes';
-import './default.css';
-import './layout.css';
+import './src/css/default.css';
+import './src/css/layout.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 

@@ -1,15 +1,14 @@
 import React from 'react';
-import ReactRouter from 'react-router';
-
+import {
+  BrowserRouter,
+  Routes
+} from 'react-router-dom';
 import Main from './src/components/main';
 import Home from './src/app';
 import NotFound from './components/errors/not_found';
 
-import IndexRoute from ReactRouter.IndexRoute;
-import browserHistory from ReactRouter.browserHistory;
-
-class Routes = {
-    get: function (config) {
+class Routes extends Component {
+  render() {
         return (
             <Router history={browserHistory}>
                 <Route path='/' component={Main}>
