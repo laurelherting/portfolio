@@ -1,12 +1,24 @@
-'use strict';
+import React from 'react';
+import ReactRouter from 'react-router';
 
-const React = require('react');
-const ReactRouter = require('react-router');
+import Main from './src/components/main';
+import Home from './src/app';
+import NotFound from './components/errors/not_found';
 
-const Main = require('./src/main');
+import IndexRoute from ReactRouter.IndexRoute;
+import browserHistory from ReactRouter.browserHistory;
 
-class Routes extends React.Component {
-
+class Routes = {
+    get: function (config) {
+        return (
+            <Router history={browserHistory}>
+                <Route path='/' component={Main}>
+                    <IndexRoute config={config} component={Home}/>
+                    <Route path='*' component={NotFound}/>
+                </Route>
+            </Router>
+        );
+    }
 };
 
 export default Routes;
