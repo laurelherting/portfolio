@@ -36,12 +36,11 @@ body {
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   height: 300px;
+   min-height: 150px;
    width: 100%;
-   /* background: #161415 url(../images/background.jpg) no-repeat top center; */
+   background: #161415 no-repeat top center;
    background-size: cover !important;
-   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
