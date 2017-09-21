@@ -10,6 +10,7 @@ body {
   font-size: 15px;
   line-height: 30px;
   color: #838C95;
+  background-size: cover;
 
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;

@@ -10,7 +10,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <div className="App-header">
-          <img src={background} alt="Background" />
+          <img src={background} alt="" class="Background"/>
           <h2>Laurel Herting</h2>
         </div>
         <p className="App-intro">

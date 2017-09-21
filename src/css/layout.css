@@ -40,7 +40,7 @@ header {
    min-height: 150px;
    width: 100%;
    background: #161415 no-repeat top center;
-   background-size: cover !important;
+   background-size: cover;
    text-align: center;
    overflow: hidden;
 }
