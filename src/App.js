@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import background from './assets/background.jpg';
 import Image from 'react-image-resizer';
-// import Link from './link';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Router>
