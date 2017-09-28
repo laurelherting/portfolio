@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ResumePropTypes from '../../prop_types/resume';
+import ResumePropTypes from '../../propTypes/resume';
 import BulletPoints from '../bulletPoints';
 
 const Entry extends React.createClass({
