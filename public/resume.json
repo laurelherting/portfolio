@@ -28,14 +28,14 @@
   },
   "work": [
          {
-             "company": "Company",
-             "position": "President",
-             "website": "http://company.com",
-             "startDate": "2013-01-01",
-             "endDate": "2014-01-01",
-             "summary": "Description...",
+             "company": "Harmon Software Solutions",
+             "position": "Mentorship",
+             "website": "",
+             "startDate": "03-2017",
+             "endDate": "Present",
+             "location": "San Francisco, CA",
              "highlights": [
-                 "Started the company"
+                 "Design and Implement effective and elegant social web apps from back-end API to front-end UI. Develop reusable, cross-platform components in HTML, CSS, & Javascript -- while leveraging the best open source platforms (React). Contributing to team discussions around system component design, improvement and integration. Work in an Agile environment to deliver high quality software with time schedules."
              ]
          }
      ],
