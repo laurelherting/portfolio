@@ -1,24 +1,28 @@
 {
   "basics": {
-    "name": "John Doe",
+    "name": "Laurel Herting",
     "label": "Software Engineer",
     "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "email": "laurel.herting@gmail.com",
+    "website": "https://laurelherting.github.io/portfolio",
+    "summary": "",
     "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "",
+            "postalCode": "",
+            "city": "Denver",
+            "state": "Colorado",
+            "countryCode": "US"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "john",
-        "url": "http://twitter.com/john"
+        "network": "LinkedIn",
+        "username": "laurelherting",
+        "url": "https://www.linkedin.com/in/laurelherting"
+      },
+      {
+        "network": "GitHub",
+        "username": "laurelherting",
+        "url": "https://github.com/laurelherting"
       }
     ]
   },
