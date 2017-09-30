@@ -41,25 +41,25 @@
      ],
      "volunteer": [
          {
-             "organization": "Organization",
-             "position": "Volunteer",
-             "website": "http://organization.com/",
-             "startDate": "2012-01-01",
-             "endDate": "2013-01-01",
-             "summary": "Description...",
+             "organization": "Whiz Kids",
+             "position": "Computer & Math Volunteer Tutor",
+             "website": "https://www.whizkidstutoring.com/",
+             "startDate": "07/2014",
+             "endDate": "06/2016",
+             "summary": "Provide instructional support to students outside the classroom and help them improve their computer science knowledge. Discovering new ways to improve students’ academic performance in math, using technology programs, conducting tutorial sessions, and maintaining student academic growth and attendance records. Important skills include instructional abilities, patience, effective communication, knowledge in their given field, and time management.",
              "highlights": [
-                 "Awarded 'Volunteer of the Month'"
+                 "Awarded 'Volunteer of the Month', Grade level acadmic growth"
              ]
          }
      ],
      "education": [
          {
              "institution": "University",
-             "area": "Software Development",
-             "studyType": "Bachelor",
-             "startDate": "2011-01-01",
-             "endDate": "2013-01-01",
-             "gpa": "4.0",
+             "area": "Education and Psychology",
+             "studyType": "Bachelor of Science",
+             "startDate": "08/2005",
+             "endDate": "05/2009",
+             "gpa": "3.75",
              "courses": [
                  "DB1101 - Basic SQL"
              ]
