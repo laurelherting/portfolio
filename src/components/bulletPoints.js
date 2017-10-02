@@ -8,13 +8,15 @@ class BulletPoints extends React.Component {
 
     render: () => {
       return (
-        <ul>
+       <div>
         {this.props.points.map((point, index) => {
           return (
-            <li key={index}>{point}</li>
-          );
+            <p key={index}>
+            <span>&bull;</span>
+            {point}
+            </p>
         })}
-        </ul>
+        </div>
       );
     };
 };
