@@ -3,9 +3,11 @@ import PropTypes from React.PropTypes;
 
 import axios from 'axios';
 
-import Contact from './contact';
-import Statement from './statement';
-import Content from './content';
+import Header from './header';
+import Navigation from './navigation';
+import Banner from './banner';
+import Section from './section';
+import ScrollDown from './scrollDown';
 import Loading from './loading';
 
 const Home extends React.createClass({
@@ -34,20 +36,24 @@ const Home extends React.createClass({
 
     render: () => {
         console.log(this.state);
-        if (this.state.resume) {
+         if (!this.state.resume) {
             return (
-                <div>
-                    <img src={this.state.resume.basics.picture} alt={this.state.resume.basics.name} id='pic'/>
-                    <Contact basics={this.state.resume.basics}/>
-                    <Statement basics={this.state.resume.basics}/>
-                    <Content work={this.state.resume.work} education={this.state.resume.education}/>
-                </div>
-            );
-        } else {
-            return (
-                <Loading/>
+                <Loading />
             );
         }
+        return (
+          <div>
+            <Header>
+              <Navigation/>
+              <Banner basics={this.state.resume.basics}/>
+              <ScrollDown/>
+            </Header>
+            <Section
+              basics={this.state.resume.basics}
+              work={this.state.resume.work}
+              education={this.state.resume.education}/>
+          </div>
+        )
     }
 });
 
