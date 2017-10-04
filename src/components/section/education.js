@@ -26,7 +26,7 @@ class Entry extends React.createClass {
     }
 };
 
-class Education extends React.createClass{
+class Education extends React.createClass {
     propTypes: {
         content: ResumePropTypes.education_set
     },

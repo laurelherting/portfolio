@@ -1,20 +1,20 @@
-import React = require('react');
+import React from 'react';
 
-const ResumePropTypes = require('../../prop_types/resume');
-const About = require('./about');
-const Resume = require('./resume');
-const Work = require('./work');
-const Education = require('./education');
-const Footer = require('./footer');
+import ResumePropTypes from '../../propTypes/resume';
+import About from './about';
+import Resume from './resume';
+import Work from './work';
+import Education from './education';
+import Footer from './footer';
 
-const Section = React.createClass({
+class Section extends React.createClass {
     propTypes: {
         basics: ResumePropTypes.basics,
         work: ResumePropTypes.work_set,
         education: ResumePropTypes.education_set
     },
 
-    render: function () {
+    render: () => {
         return (
             <div>
                 <About content={this.props.basics}/>
@@ -26,6 +26,6 @@ const Section = React.createClass({
             </div>
         );
     }
-});
+};
 
-module.exports = Section;
+export default Section;
