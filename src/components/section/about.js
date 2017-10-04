@@ -7,7 +7,7 @@ class About extends React.createClass {
         content: ResumePropTypes.content
     },
 
-    render: function () {
+    render: () => {
         return (
             <section id='about'>
                 <div className='row'>
@@ -21,10 +21,9 @@ class About extends React.createClass {
                             <div className='columns contact-details'>
                                 <h2>Contact Details</h2>
                                 <p className='address'>
-                                    {/*
                                     <span>{this.props.content.location.address}</span>
                                     <br/>
-                                    */}
+    }
                                     <span>{this.props.content.location.city}</span>
                                     <br/>
                                     <span>{this.props.content.location.countryCode}</span>
