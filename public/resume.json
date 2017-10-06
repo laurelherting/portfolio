@@ -67,10 +67,10 @@
      ],
      "awards": [
          {
-             "title": "Award",
-             "date": "2014-11-01",
-             "awarder": "Company",
-             "summary": "There is no spoon."
+             "title": "Student Ambassador Award",
+             "date": "02/2009",
+             "awarder": "Western CT State University",
+             "summary": "Awarded for exemplary performance."
          }
      ],
      "publications": [
@@ -89,7 +89,8 @@
              "keywords": [
                  "HTML",
                  "CSS",
-                 "Javascript"
+                 "Javascript",
+                 "REACT"
              ]
          }
      ],
