@@ -24,10 +24,9 @@ const Home extends React.createClass({
     },
 
     componentDidMount: () => {
-        axios
+        return axios
             .get(this.props.route.resume)
             .then((response) => {
-                console.log(response);
                 this.setState({
                     resume: response.data
                 });
