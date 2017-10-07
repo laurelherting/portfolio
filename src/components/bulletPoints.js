@@ -1,9 +1,9 @@
 import React from 'react';
-import ResumePropTypes from '../prop_types/resume';
+import ResumePropTypes from '../propTypes/resume';
 
 class BulletPoints extends React.Component {
     propTypes: {
-        points: ResumePropTypes.bullet_points
+        points: ResumePropTypes.bulletPoints
     },
 
     render: () => {
