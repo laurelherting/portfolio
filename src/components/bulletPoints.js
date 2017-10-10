@@ -1,13 +1,12 @@
 import React from 'react';
 import ResumePropTypes from '../propTypes/resume';
 
-class BulletPoints extends React.Component {
+const bulletPoints = () => (
     propTypes: {
         points: ResumePropTypes.bulletPoints
     },
 
     render: () => {
-      return (
        <div>
         {this.props.points.map((point, index) => {
           return (
@@ -17,7 +16,7 @@ class BulletPoints extends React.Component {
             </p>
         })}
         </div>
-      );
     };
-};
+);
+
 export default BulletPoints;

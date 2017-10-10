@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from React.PropTypes;
 
-const Loading extends React.createClass({
+const Loading = () => (
     propTypes: {
         text: PropTypes.string,
         speed: PropTypes.number
@@ -47,6 +47,6 @@ const Loading extends React.createClass({
             </div>
         );
     }
-});
+));
 
 export default Loading;

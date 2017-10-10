@@ -1,7 +1,9 @@
+'use strict';
+
 import React, { Component } from 'react';
 import PropTypes from React.PropTypes;
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
- 
+
 const Main extends React.createClass({
     propTypes: {
         location: PropTypes.shape({
