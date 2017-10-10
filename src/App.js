@@ -3,9 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import background from './assets/background.jpg';
 import Image from 'react-image-resizer';
 
-class App extends React.Component {
-  render() {
-    return (
+const App = () => (
       <Router>
       <div className="App">
         <div className="App-header">
@@ -18,8 +16,6 @@ class App extends React.Component {
         </p>
       </div>
       </Router>
-    );
-  }
-}
+);
 
 export default App;

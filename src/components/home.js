@@ -10,7 +10,7 @@ import Section from './section';
 import ScrollDown from './scrollDown';
 import Loading from './loading';
 
-const Home extends React.createClass({
+const Home = () => (
     propTypes: {
         route: PropTypes.shape({
             resume: PropTypes.string.isRequired
@@ -54,6 +54,6 @@ const Home extends React.createClass({
           </div>
         )
     }
-});
+));
 
 export default Home;

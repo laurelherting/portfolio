@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 
-import config from './config';
+import config from './Config';
 
-import Main from './components/main';
-import Home from './components/home';
+import Main from './components/Main';
+import Home from './components/Home';
 
 import IndexRoute from ReactRouter.IndexRoute;
 import { BrowserRouter, Route, browserHistory } from 'react-router-dom'

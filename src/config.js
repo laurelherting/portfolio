@@ -1,5 +1,5 @@
 export default {
     path: {
-        resume: '/public/resume.json'
+        resume: '/public/Resume.json'
     }
 };
