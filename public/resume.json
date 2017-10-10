@@ -56,12 +56,26 @@
          {
              "institution": "University",
              "area": "Education and Psychology",
-             "studyType": "Bachelor of Science",
+             "degreeType": "Bachelor of Science",
              "startDate": "08/2005",
              "endDate": "05/2009",
              "gpa": "3.75",
              "courses": [
                  "DB1101 - Basic SQL"
+             ]
+         }
+     ],
+
+     "education": [
+         {
+             "institution": "University",
+             "area": "Education",
+             "degreeType":"Master of Arts Education",
+             "startDate": "08/2009",
+             "endDate": "05/2012",
+             "gpa": "3.97",
+             "courses": [
+                 "Computer"
              ]
          }
      ],
@@ -75,10 +89,10 @@
      ],
      "publications": [
          {
-             "name": "Publication",
-             "publisher": "Company",
-             "releaseDate": "2014-10-01",
-             "website": "http://publication.com",
+             "name": "Pyschology Publication",
+             "publisher": "Educational Psychology",
+             "releaseDate": "05/2009",
+             "website": "",
              "summary": "Description..."
          }
      ],
