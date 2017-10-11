@@ -10,7 +10,7 @@ const bulletPoints = () => (
        <div>
         {this.props.points.map((point, index) => {
           return (
-            <p key={index}>
+            <p key={index} className='point'>
             <span>&bull;</span>
             {point}
             </p>
