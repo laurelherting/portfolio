@@ -1,9 +1,12 @@
 import React from 'react';
- 
+
 import Link from './link';
 import config from '../../config';
 
-class Navigation extends React.createClass {
+const Navigation = () => (
+    propTypes: {
+        currentSection: PropTypes.string.isRequired
+    },
     render: () => {
         return (
             <nav id='nav-wrap' className='opaque'>
@@ -20,6 +23,6 @@ class Navigation extends React.createClass {
             </nav>
         );
     }
-};
+);
 
 export default Navigation;
