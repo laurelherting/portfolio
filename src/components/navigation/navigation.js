@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Link from './link';
-import config from '../../config';
+import Link from './Link';
+import config from '../../Config';
 
 const Navigation = () => (
     propTypes: {
