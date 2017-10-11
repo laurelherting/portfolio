@@ -19,7 +19,8 @@ const Home = () => (
 
     getInitialState: () => {
         return {
-            resume: false
+            resume: false,
+            currentSection: 'home'
         };
     },
 
@@ -31,6 +32,12 @@ const Home = () => (
                     resume: response.data
                 });
             }.bind(this));
+    },
+
+    changeWayPoint: (section) => {
+        this.setState({
+            currentSection: section
+        });
     },
 
     render: () => {
@@ -50,7 +57,7 @@ const Home = () => (
             <Section
               basics={this.state.resume.basics}
               work={this.state.resume.work}
-              education={this.state.resume.education}/>
+              education={this.state.resume.education}
           </div>
         )
     }
