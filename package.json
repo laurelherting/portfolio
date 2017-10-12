@@ -56,6 +56,8 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.12",
+    "react-slick2": "^0.6.6",
+    "react-waypoint": "^7.3.1",
     "style-loader": "^0.18.2",
     "superagent": "^3.6.0",
     "url-loader": "^0.5.9",
