@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from React.PropTypes;
 
-import ResumePropTypes from '../prop_types/resume';
+import ResumePropTypes from '../propTypes/Resume';
 
-class mapIcon(socialMedia) => {
+const mapIcon(socialMedia) => {
     const media = socialMedia.replace(/ /g, '-');
     switch (socialMedia) {
         case 'email':
@@ -23,16 +23,16 @@ class mapIcon(socialMedia) => {
     }
 }
 
-class SocialMedia extends React.createClass {
+const SocialMedia = () => (
     propTypes: {
         ulClass: PropTypes.string.isRequired,
         profiles: ResumePropTypes.profiles
     },
 
-    render: function () {
+    render: () => {
         return (
             <ul className={this.props.ulClass}>
-                {this.props.profiles.map(function (profile, index) {
+                {this.props.profiles.map((profile, index) => {
                     const icon = mapIcon(profile.network.toLowerCase());
                     return (
                         <li key={index}>
@@ -45,6 +45,6 @@ class SocialMedia extends React.createClass {
             </ul>
         );
     }
-});
+));
 
 export default SocialMedia;
