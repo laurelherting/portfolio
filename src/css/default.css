@@ -1,17 +1,57 @@
-html {
-   font-size: 62.5%;
-   -webkit-font-smoothing: antialiased;
-}
+/*
+=====================================================================
+*   Ceevee v1.0 Default Stylesheet
+*   url: styleshout.com
+*   10-10-2017
+=====================================================================
+TOC:
+a. Webfonts and Icon fonts
+b. Reset
+c. Default Styles
+   1. Basic
+   2. Typography
+   3. Links
+   4. Images
+   5. Buttons
+   6. Forms
+d. Grid
+e. Others
+   1. Clearing
+   2. Misc
+=====================================================================  */
 
-body {
-  background: #fff;
-  font-family: 'opensans-regular', sans-serif;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 30px;
-  color: #838C95;
-  background-size: cover;
+/* ------------------------------------------------------------------ */
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
 
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
+@import url("Fonts.css");
+@import url("fontello/css/Fontello.css");
+@import url("font-awesome/css/Font-awesome.min.css");
+@import url("font-awesome-docker/css/Fontcustom.css");
+
+/* ------------------------------------------------------------------
+/* b. Reset
+      Adapted from:
+      Normalize.css - https://github.com/necolas/normalize.css/
+      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
+/* ------------------------------------------------------------------ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
 }
