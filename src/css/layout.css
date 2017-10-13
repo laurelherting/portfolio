@@ -20,16 +20,17 @@
  /* ------------------------------------------------------------------ */
 
 body {
-   background: #191919;
+   background: #0f0f0;
 }
 
 .loading {
-   /* background: #191919 url(../images/loader.gif) no-repeat center center; */
-   margin: 0 auto;
+  background: #161415 url(../assets/loader.gif) no-repeat center center;
+  margin: 0 auto;
    width: 100%;
    min-height: 500px;
    height: 100%;
 }
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
