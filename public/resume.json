@@ -23,6 +23,16 @@
         "network": "GitHub",
         "username": "laurelherting",
         "url": "https://github.com/laurelherting"
+      },
+      {
+          "network": "Stack Overflow",
+          "username": "lherting",
+          "url": "https://stackoverflow.com/users/8473290/lherting"
+      },
+      {
+          "network": "Quora",
+          "username": "Laurel Herting",
+          "url": "https://www.quora.com/profile/Laurel_Herting"
       }
     ]
   },
@@ -89,7 +99,7 @@
      ],
      "publications": [
          {
-             "name": "Pyschology Publication",
+             "name": "Pyschology Research Publication",
              "publisher": "Educational Psychology",
              "releaseDate": "05/2009",
              "website": "",
@@ -120,6 +130,12 @@
              "keywords": [
                  "Hedgehogs",
                  "Bears"
+             ]
+         },
+         {
+             "name": "New Technologies",
+             "keywords": [
+                 "JavaScript"
              ]
          }
      ],
