@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'path'
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
@@ -10,7 +10,7 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
     target: 'web',
     cache: false,
-    debug: true,
+    debug: false,
     devtool: false,
 
     entry: [
@@ -19,6 +19,7 @@ module.exports = {
 
     output: {
         path: path.join(__dirname, 'public'),
+        publicPath: path.join(__dirname, 'public'),
         filename: 'bundle.js'
     },
 
@@ -44,9 +45,10 @@ module.exports = {
 
     plugins: [
         HTMLWebpackPluginConfig
-        // new webpack.optimize.DedupePlugin(),
-        // new webpack.optimize.OccurenceOrderPlugin()
-        // new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}})
+        new webpack.optimize.DedupePlugin(),
+        new webpack.optimize.OccurenceOrderPlugin()
+        new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}})
+        new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}})
     ],
 
     resolve: {
