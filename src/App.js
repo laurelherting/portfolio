@@ -1,21 +1,40 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import background from './assets/background.jpg';
-import Image from 'react-image-resizer';
+import 'font-awesome/css/font-awesome.css';
+import './App.css';
 
 const App = () => (
-      <Router>
-      <div className="App">
-        <div className="App-header">
-          <img src={background} alt="" className="Background" width={1297} height={710} />
-          <nav id="nav-wrap" class="opaque">
-          </nav>
-          <h2>Laurel Herting</h2>
+<Router>
+    <div>
+
+        <div className="App">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>INTERESTS</li>
+                <li>LINKS</li>
+            </ul>
         </div>
-        <p className="App-intro">
-        </p>
-      </div>
-      </Router>
+
+        <div>
+            <h2>Laurel Herting</h2>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <a href="https://github.com/laurelherting">
+                        <i className="fa fa-github" aria-hidden="true" />
+                    </a>
+                    <a href="https://linkedin.com/in/laurelherting">
+                        <i className="fa fa-linkedin" aria-hidden="true" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</Router>
 );
 
 export default App;
