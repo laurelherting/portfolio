@@ -23,8 +23,11 @@ const App = () => (
         <div>
             <ul>
                 <li>
-                    <a href="http://github.com">
+                    <a href="https://github.com/laurelherting">
                         <i className="fa fa-github" aria-hidden="true" />
+                    </a>
+                    <a href="https://linkedin.com/in/laurelherting">
+                        <i className="fa fa-linkedin" aria-hidden="true" />
                     </a>
                 </li>
             </ul>
