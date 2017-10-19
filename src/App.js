@@ -27,6 +27,7 @@ const App = () => (
                         <i className="fa fa-phone" />
                     </a>
                     <a href="mailto:-.-@gmail.com">
+                        <i className="fa fa-envelope" />
                     </a>
                     <a href="https://linkedin.com/in/laurelherting">
                         <i className="fa fa-linkedin" aria-hidden="true" />
@@ -41,7 +42,7 @@ const App = () => (
                         <i className="fa fa-quora" />
                     </a>
                     <a href="https://hub.docker.com/u/lherting">
-                    <i className="fa fa-docker" />
+                        <i className="fa fa-docker" />
                     </a>
                 </li>
             </ul>
