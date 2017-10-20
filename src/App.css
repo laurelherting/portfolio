@@ -7,7 +7,6 @@
     color: #000000;
 }
 
-
 ul.nav {
     color: #FFFFFF;
     background-color: #7b7976;
@@ -30,12 +29,8 @@ ul.social {
     margin: 0;
 }
 
-li {
-    font-size: 0.6em;
-    padding: 1em;
-    margin: 1em;
-    display: inline;
-    letter-spacing: 2em;
+a {
+    font-size: 2.5em;
 }
 
 h2 {
@@ -44,10 +39,23 @@ h2 {
     margin: 2em 0 1em 0;
 }
 
-a {
-    font-size: 2.5em;
+header {
+    height: 753px;
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background: #161415;
+    text-align: center;
 }
 
 i {
     text-align: center;
+}
+
+li {
+    font-size: 0.6em;
+    padding: 1em;
+    margin: 1em;
+    display: inline;
+    letter-spacing: 2em;
 }
