@@ -6,7 +6,7 @@ import './App.css';
 const App = () => (
 <Router>
     <div>
-        <header id="home">
+        <header id="home" className="height: 753px;">
             <div className="App">
                 <ul id="nav" className="nav">
                     <li>HOME</li>
