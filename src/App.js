@@ -15,8 +15,8 @@ const App = () => (
                     <li>LINKS</li>
                 </ul>
             </div>
-            <div>
-                <h2>Laurel Herting</h2>
+            <div className="banner-text">
+                <h2 className="responsive-headline">Laurel Herting</h2>
             </div>
 
             <div>
