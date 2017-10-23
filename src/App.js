@@ -7,14 +7,19 @@ const App = () => (
 <Router>
     <div>
         <header id="home" className="height: 753px;">
-            <div className="App">
-                <ul id="nav" className="nav">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>INTERESTS</li>
-                    <li>LINKS</li>
-                </ul>
-            </div>
+            <nav id="nav-wrap" className="opaque">
+                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+                </a>
+                <a className="mobile-btn" href="#" title="Hide navigation"></a>
+                <div className="App">
+                    <ul id="nav" className="nav">
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>INTERESTS</li>
+                        <li>LINKS</li>
+                    </ul>
+                </div>
+            </nav>
             <div className="banner-text">
                 <h2 className="responsive-headline">Laurel Herting</h2>
             </div>
