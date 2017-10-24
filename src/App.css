@@ -8,6 +8,7 @@
 }
 
 ul.nav {
+    min-height: 48px;
     color: #FFFFFF;
     background-color: #7b7976;
     width: 100%;
@@ -71,4 +72,19 @@ li {
     margin: 1em;
     display: inline;
     letter-spacing: 2em;
+}
+
+#nav-wrap {
+    font: 12px 'opensans bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    background: transparent !important;
+    letter-spacing: 2.5px;
+}
+
+ul {
+    list-style: none outside;
 }
