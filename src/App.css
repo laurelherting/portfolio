@@ -88,3 +88,8 @@ li {
 ul {
     list-style: none outside;
 }
+ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    color: #fff;
+}

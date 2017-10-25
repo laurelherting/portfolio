@@ -13,7 +13,9 @@ const App = () => (
                 <a className="mobile-btn" href="#" title="Hide navigation"></a>
                 <div className="App">
                     <ul id="nav" className="nav">
-                        <li>HOME</li>
+                        <li>
+                          <a className="smoothscroll" href="#home">HOME</a>
+                        </li>
                         <li>ABOUT</li>
                         <li>INTERESTS</li>
                         <li>LINKS</li>
