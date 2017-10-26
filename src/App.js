@@ -14,11 +14,17 @@ const App = () => (
                 <div className="App">
                     <ul id="nav" className="nav">
                         <li>
-                          <a className="smoothscroll" href="#home">HOME</a>
+                            <a className="smoothscroll" href="#home">HOME</a>
                         </li>
-                        <li>ABOUT</li>
-                        <li>INTERESTS</li>
-                        <li>LINKS</li>
+                        <li>
+                            <a className="smoothscroll" href="#about">ABOUT</a>
+                        </li>
+                        <li>
+                        <a className="smoothscroll" href="interests">INTERESTS</a>
+                        </li>
+                        <li>
+                        <a className="smoothscroll" href="links">LINKS</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
