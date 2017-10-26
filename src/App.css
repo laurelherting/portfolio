@@ -31,9 +31,8 @@ ul.social {
 }
 
 a {
-    font-size: 1.8em;
-    text-decoration: none;
-    letter-spacing: 1.5px;
+    font-size: 2.5em;
+    color: #FFFFFF;
 }
 
 h2 {
@@ -48,6 +47,8 @@ header {
     min-height: 500px;
     width: 100%;
     background: #161415 url(./assets/background.jpg) no-repeat top center;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
     text-align: center;
     overflow: hidden;
     display: inline-block;
@@ -64,6 +65,14 @@ header .banner-text h2 {
     color: #fff;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
+
+header.social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
 i {
     text-align: center;
 }
@@ -94,4 +103,9 @@ ul#nav li a {
     display: inline-block;
     padding: 8px 13px;
     color: #fff;
+    text-decoration: none;
+    line-height: 32px;
+    text-align: left;
+    transition: color .2s ease-in-out;
+    font-size: 12px;
 }
