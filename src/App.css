@@ -1,3 +1,62 @@
+@media only screen and (max-width: 767px)
+#nav-wrap:not( :target ) > a:first-of-type, #nav-wrap:target > a:last-of-type {
+    display: block;
+}
+
+@media only screen and (max-width: 767px)
+#nav-wrap > a:after {
+    top: 60%
+}
+
+@media only screen and (max-width: 767px)
+#nav-wrap > a:before, #nav-wrap > a:after {
+    after
+    position: absolute;
+    border: 2px solid #fff;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    content: '';
+}
+
+@media only screen and (max-width: 767)
+#nav-wrap > a {
+    width: 48px;
+    height: 48px;
+    text-align: left;
+    background-color: #CC5200;
+    position: relative;
+    border: none;
+        border-top-color: initial;
+        border-top-style: none;
+        border-top-width: initial;
+        border-right-color: initial;
+        border-right-style: none;
+        border-right-width: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: initial;
+        border-left-color: initial;
+        border-left-style: none;
+        border-left-width: initial;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    float: right;
+    font: 0/0 a;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 0px;
+        line-height: 0;
+        font-family: a;
+}
+
 .App {
     width: 100%;
     height: 20%;
