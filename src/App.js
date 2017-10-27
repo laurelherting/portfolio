@@ -7,14 +7,10 @@ const App = () => (
 <Router>
     <div>
         <header id="home" className="height: 753px;">
-            ::before
             <nav id="nav-wrap" className="opaque">
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-                ::before
-                "Show navigation"
-                ::after
                 </a>
-                <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                <a className="mobile-btn" href="#" title="Hide navigation"></a>
                 <div className="App">
                     <ul id="nav" className="nav">
                         <li>
