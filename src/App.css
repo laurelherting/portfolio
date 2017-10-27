@@ -168,3 +168,8 @@ ul#nav li a {
     transition: color .2s ease-in-out;
     font-size: 12px;
 }
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
