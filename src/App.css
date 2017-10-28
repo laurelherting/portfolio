@@ -66,7 +66,28 @@
     color: #FFFFFF;
 }
 
-ul.nav {
+.icon-down-circle {
+    content: '\e809';
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
+
+ul#nav {
     min-height: 48px;
     color: #FFFFFF;
     background-color: #7b7976;
