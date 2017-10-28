@@ -15,6 +15,8 @@ const App = () => (
                     <ul id="nav" className="nav">
                         <li>
                             <a className="smoothscroll" href="#home">HOME</a>
+                            <i className="icon-down-circle">
+                            </i>
                         </li>
                         <li>
                             <a className="smoothscroll" href="#about">ABOUT</a>
