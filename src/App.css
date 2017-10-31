@@ -66,11 +66,12 @@
     color: #FFFFFF;
 }
 
-.icon-down-circle {
-    content: '\e809';
-}
-
-[class^="icon-"]:before, [class*=" icon-"]:before {
+i icon-down-circle:before {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    content: '\f0ab';
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
