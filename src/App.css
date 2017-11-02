@@ -159,6 +159,20 @@ header .banner-text h2 {
     padding: 20px 0px 160px 0px;
 }
 
+header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    border-radius: 100%;
+}
+
 header.social {
     margin: 24px 0;
     padding: 0;
