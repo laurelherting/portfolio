@@ -222,3 +222,15 @@ ul#nav li a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+[class^="arrow-"]:before, [class*=" arrow-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+}
