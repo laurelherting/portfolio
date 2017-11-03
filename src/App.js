@@ -61,8 +61,10 @@ const App = () => (
                         </li>
                     </ul>
                 </div>
+                <a className="smoothscroll" href="#about">
                 <i className="fa fa-arrow-circle-down" aria-hidden="true">
                 </i>
+                </a>
             </div>
         </header>
     </div>
