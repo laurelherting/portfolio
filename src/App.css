@@ -108,12 +108,17 @@ ul.social {
     padding: 0 15px 0 15px;
     list-style-type: none;
     text-decoration: none;
-    margin: 0;
+    font-size: 2.4em;
+}
+
+ul.smoothscroll {
+    color: #FFF;
+    font-size: 180%;
 }
 
 a {
-    font-size: 2.5em;
-    color: #FFFFFF;
+    color: #FFF;
+    font-size: 150%
 }
 
 element.style {
@@ -223,10 +228,11 @@ ul#nav li a {
     box-sizing: border-box;
 }
 
-[class^="arrow-"]:before, [class*=" arrow-"]:before {
+i [className^="arrow-"]:before, [className*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
+  font-size: 75%;
   speak: none;
   display: inline-block;
   text-decoration: inherit;
