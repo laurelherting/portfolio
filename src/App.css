@@ -66,6 +66,7 @@
     color: #FFFFFF;
 }
 
+/* down arrow */
 i icon-down-circle:before {
     background-color: white;
     border-radius: 50%;
@@ -88,6 +89,7 @@ i icon-down-circle:before {
     margin-left: .2em;
 }
 
+/* top navigation bar */
 ul#nav {
     min-height: 48px;
     color: #FFFFFF;
@@ -100,6 +102,7 @@ ul#nav {
     padding: 0;
 }
 
+/* social links */
 ul.social {
     color: #FFFFFF;
     width: 100%;
@@ -125,12 +128,14 @@ element.style {
     height: 709px;
 }
 
+/* name */
 h2 {
     font-size: 4em;
     text-align: center;
     margin: 2em 0 1em 0;
 }
 
+/* first page sytle */
 header {
     height: 753px;
     position: relative;
@@ -158,12 +163,14 @@ header:before {
     height: 100%;
 }
 
+/* name style-banner */
 header .banner-text h2 {
     color: #fff;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
     padding: 20px 0px 160px 0px;
 }
 
+/* scrolldown link */
 header .scrolldown a {
     position: absolute;
     bottom: 30px;
@@ -176,14 +183,32 @@ header .scrolldown a {
     font-size: 42px;
     line-height: 42px;
     border-radius: 100%;
+
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
 }
 
-header.social {
+header .scrolldown a:hover { color: #f40454; }
+
+/* header social links */
+header .social {
     margin: 24px 0;
     padding: 0;
     font-size: 30px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
+
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+
+header .social li a { color: #fff; }
+header .social li a:hover { color: #f40454; }
 
 i {
     text-align: center;
@@ -197,6 +222,7 @@ li {
     letter-spacing: 2em;
 }
 
+/* top navigation bar */
 #nav-wrap {
     font: 12px 'opensans bold', sans-serif;
     width: 100%;
@@ -228,6 +254,7 @@ ul#nav li a {
     box-sizing: border-box;
 }
 
+/* down arrow */
 i [className^="arrow-"]:before, [className*=" arrow-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -240,3 +267,21 @@ i [className^="arrow-"]:before, [className*=" arrow-"]:before {
   margin-right: .2em;
   text-align: center;
 }
+
+/* abreviations */
+abbr:hover { cursor: help; }
+
+/* Links */
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: #f40454;
+
+   -webkit-transition: color .3s ease-in-out;
+   -moz-transition: color .3s ease-in-out;
+   -o-transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus { color: #313131; }
+p a, p a:visited { line-height: inherit; }
