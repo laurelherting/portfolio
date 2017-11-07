@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import './App.css';
+import profilePic from './assets/profilePic.png';
 
 const App = () => (
 <Router>
@@ -67,6 +68,18 @@ const App = () => (
                 </a>
             </div>
         </header>
+        <div>
+            <section id="about">
+                <div className="row">
+                    <div className="two columns">
+                        <img src="/assets/profilePic.png" />
+                    </div>
+                    <div className="ten columns main-col">
+                    <h3>About Me</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </Router>
 );
