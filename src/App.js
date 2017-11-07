@@ -75,7 +75,18 @@ const App = () => (
                         <img src="/assets/profilePic.png" />
                     </div>
                     <div className="ten columns main-col">
-                    <h3>About Me</h3>
+                        <h3>About Me</h3>
+                        <p>
+                            "Diligent, results-driven, detailed, and articulate software developer with participation creating solid application architecture and coding. Passionate about problem-solving in order to understand abstact concepts through strong research skills resulting in innovative solutions."
+                        </p>
+                        <p>
+                        "Excellent communication skills while maintaining a positive attitude. Great at time and task management, quick learning ability for deep and broad technical exposure. Confident, up-to-date team player determined to achieve high end user focus."
+                        </p>
+                        <div className="row">
+                            <div className="columns contact-details">
+                                <h4>Contact Details</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
