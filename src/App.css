@@ -66,6 +66,20 @@
     color: #FFFFFF;
 }
 
+div, h2, h3, p, ul, li, ol, caption, header, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+div {
+    display: block;
+}
+
 /* down arrow */
 i icon-down-circle:before {
     background-color: white;
@@ -314,17 +328,14 @@ img {
     height: auto;
 }
 
-section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
 
 /* about page profilePic img */
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
 .row .two {
     width: 16.66667%;
 }
