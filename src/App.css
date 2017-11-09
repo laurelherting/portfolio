@@ -323,3 +323,15 @@ section {
     vertical-align: baseline;
     background: transparent;
 }
+
+/* about page profilePic img */
+.row .two {
+    width: 16.66667%;
+}
+
+.column, .columns {
+    postion: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
