@@ -72,7 +72,7 @@ const App = () => (
             <section id="about">
                 <div className="row">
                     <div className="two columns">
-                        <img src="/assets/profilePic.png" />
+                        <img className="profilePic" src="/assets/profilePic.png" />
                     </div>
                     <div className="ten columns main-col">
                         <h3>About Me</h3>
