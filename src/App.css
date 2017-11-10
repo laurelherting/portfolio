@@ -285,8 +285,8 @@ i [className^="arrow-"]:before, [className*=" arrow-"]:before {
 /* abreviations */
 abbr:hover { cursor: help; }
 
-/* Links */
-a, a:visited {
+/* Links - hover */
+ a:visited {
    text-decoration: none;
    outline: 0;
    color: #f40454;
