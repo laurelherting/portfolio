@@ -314,6 +314,21 @@ p a, p a:visited { line-height: inherit; }
     border-radius: 100%;
 }
 
+#about .main-col {
+    padding-right: 5%;
+}
+
+.row .ten {
+    width: 83.33333;
+}
+
+.column .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+
 #about p {
     line-height: 30px;
     color: #7A7A7A;
@@ -338,11 +353,4 @@ img {
 
 .row .two {
     width: 16.66667%;
-}
-
-.column, .columns {
-    postion: relative;
-    padding: 0 20px;
-    min-height: 1px;
-    float: left;
 }
