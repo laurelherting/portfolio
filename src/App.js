@@ -86,7 +86,7 @@ const App = () => (
                             <div className="columns contact-details">
                                 <h4>Contact Details</h4>
                                 <p className="address">
-                                    <span>USA</span>
+                                    <span>Denver, Colorado USA</span>
                                 </p>
                             </div>
                         </div>
