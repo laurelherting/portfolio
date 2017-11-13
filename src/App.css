@@ -318,6 +318,12 @@ p a, p a:visited { line-height: inherit; }
     padding-right: 5%;
 }
 
+#about h3, h4 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
 .row .ten {
     width: 83.33333;
 }
