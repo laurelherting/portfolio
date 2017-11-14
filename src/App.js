@@ -93,6 +93,24 @@ const App = () => (
                     </div>
                 </div>
             </section>
+            <section id="work">
+                <div className="row work">
+                    <div className="two columns header-col">
+                        <h1>
+                            Work
+                        </h1>
+                    </div>
+                    <div className="ten columns main-col">
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h4>
+                                    Harmon Software Solutions
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 </Router>
