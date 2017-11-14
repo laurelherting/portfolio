@@ -325,7 +325,7 @@ p a, p a:visited { line-height: inherit; }
 }
 
 .row .ten {
-    width: 83.33333;
+    width: 83.33333%;
 }
 
 .column .columns {
@@ -359,4 +359,12 @@ img {
 
 .row .two {
     width: 16.66667%;
+}
+
+/* work section */
+#work {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    overflow: hidden;
 }

@@ -77,17 +77,35 @@ const App = () => (
                     <div className="ten columns main-col">
                         <h3>About Me</h3>
                         <p>
-                            "Diligent, results-driven, detailed, and articulate software developer with participation creating solid application architecture and coding. Passionate about problem-solving in order to understand abstact concepts through strong research skills resulting in innovative solutions."
+                            Diligent, results-driven, detailed, and articulate software developer with participation creating solid application architecture and coding. Passionate about problem-solving in order to understand abstact concepts through strong research skills resulting in innovative solutions.
                         </p>
                         <p>
-                        "Excellent communication skills while maintaining a positive attitude. Great at time and task management, quick learning ability for deep and broad technical exposure. Confident, up-to-date team player determined to achieve high end user focus."
+                        Excellent written and verbal communication skills while maintaining a positive attitude. Great at time and task management, quick learning ability for deep and broad technical exposure. Confident, up-to-date team player determined to achieve high end user focus.
                         </p>
                         <div className="row">
                             <div className="columns contact-details">
                                 <h4>Contact Details</h4>
                                 <p className="address">
-                                    <span>USA</span>
+                                    <span>Denver, Colorado USA</span>
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="work">
+                <div className="row work">
+                    <div className="two columns header-col">
+                        <h1>
+                            Work
+                        </h1>
+                    </div>
+                    <div className="ten columns main-col">
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h4>
+                                    Harmon Software Solutions
+                                </h4>
                             </div>
                         </div>
                     </div>
