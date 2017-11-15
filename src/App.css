@@ -151,7 +151,7 @@ h2 {
 
 /* first page sytle */
 header {
-    height: 753px;
+    height: 780px;
     position: relative;
     min-height: 500px;
     width: 100%;
@@ -160,7 +160,7 @@ header {
     background-size: cover !important;
     text-align: center;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
     margin: 0;
     padding: 0;
     border: 0;
@@ -370,6 +370,10 @@ img {
 }
 
 #work h4 {
-    border-bottom: 3px solid #f40454;
+    border-bottom: 3px solid #E8E8E8;
     padding-bottom: 6px;
+}
+
+#work a, #work a:visited {
+    color: #313131;
 }
