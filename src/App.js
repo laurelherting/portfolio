@@ -104,8 +104,11 @@ const App = () => (
                         <div className="row item">
                             <div className="twelve columns">
                                 <h4>
-                                    Harmon Software Solutions
+                                    <a href="">Harmon Software Solutions</a>
                                 </h4>
+                                <p className="info">
+                                    Software Developer
+                                </p>
                             </div>
                         </div>
                     </div>
