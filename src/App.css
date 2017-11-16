@@ -57,6 +57,18 @@
         font-family: a;
 }
 
+body {
+    background: #fff;
+    font-family: 'opensans-regular', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #838C95;
+
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
 .App {
     width: 100%;
     height: 20%;
@@ -198,7 +210,6 @@ header .scrolldown a {
     line-height: 42px;
     border-radius: 100%;
 
-
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
@@ -251,6 +262,7 @@ li {
 ul {
     list-style: none outside;
 }
+
 ul#nav li a {
     display: inline-block;
     padding: 8px 13px;
@@ -324,16 +336,23 @@ p a, p a:visited { line-height: inherit; }
     margin-bottom: 12px;
 }
 
-.row .ten {
-    width: 83.33333%;
-}
 
+/* row clearing */
 .column, .columns {
     position: relative;
     padding: 0 20px;
     min-height: 1px;
     float: left;
 }
+
+.column.centered, .columns.centered  {
+    float: none;
+    margin: 0 auto;
+}
+
+[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"].end { float: right; }
+
 
 #about p {
     line-height: 30px;
@@ -356,8 +375,13 @@ img {
     margin: 0 auto;
 }
 
+/* column widths */
 .row .two {
     width: 16.66667%;
+}
+
+.row .ten {
+    width: 83.33333%;
 }
 
 /* work section */
