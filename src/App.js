@@ -84,7 +84,7 @@ const App = () => (
                         </p>
                         <div className="row">
                             <div className="columns contact-details">
-                                <h4>Contact Details</h4>
+                                <h3>Contact Details</h3>
                                 <p className="address">
                                     <span>Denver, Colorado USA</span>
                                 </p>
