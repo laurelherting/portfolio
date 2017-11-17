@@ -114,6 +114,20 @@ const App = () => (
                     </div>
                 </div>
             </section>
+            <section id="interests">
+                <div className="row interests">
+                    <div className="two columns header-col">
+                            <h1>
+                                <span>Interests</span>
+                            </h1>
+                        </div>
+                        <div className="ten columns main-col">
+                            <div className="row inside">
+                                <h4>Programming Languages</h4>
+                            </div>
+                        </div>
+                </div>
+            </section>
         </div>
     </div>
 </Router>
