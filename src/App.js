@@ -89,13 +89,6 @@ const App = () => (
                         <p className="address">
                           <span>Denver, Colorado USA</span>
                         </p>
-                        <p className="point">
-                            <span className="bullet-point">
-                                <p>
-                                    Involved in end-to-end development of a new product from the ground up, working in Node.js to build the React.js frontend and distributed Express.js
-                                </p>
-                            </span>
-                        </p>
                     </div>
                 </div>
             </section>
@@ -110,6 +103,9 @@ const App = () => (
                                 <a href="">Harmon Software Solutions</a>
                             </h4>
                             <p className="info">Software Developer</p>
+                            <p>
+                                Involved in end-to-end development of a new product from the ground up, working in Node.js to build the React.js frontend and distributed Express.js
+                            </p>
                         </div>
                     </div>
                     <hr />

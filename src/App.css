@@ -415,3 +415,11 @@ img {
 #work .header-col {
     padding-top: 9px;
 }
+
+#intersts h4 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+h4 {
+    margin-bottom: 12px;
+}
