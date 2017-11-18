@@ -78,7 +78,7 @@ body {
     color: #FFFFFF;
 }
 
-div, h2, h3, h4, p, ul, li, ol, caption, header, section {
+div, h2, h3, h4, p, ul, li, ol, caption, header, section, p {
     margin: 0;
     padding: 0;
     border: 0;
@@ -206,7 +206,7 @@ header .scrolldown a {
     display: block;
     height: 42px;
     width: 42px;
-    font-size: 62px;
+    font-size: 42px;
     line-height: 42px;
     border-radius: 100%;
 
@@ -312,10 +312,6 @@ abbr:hover { cursor: help; }
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
 
-.columns {
-    padding: 0 20px;
-}
-
 #about {
     background: #2B2B2B;
     padding-top: 96px;
@@ -396,11 +392,26 @@ img {
     overflow: hidden;
 }
 
-#work h4 {
+#work h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#work h1 span {
+    border-bottom: 3px solid #313131;
+    padding-bottom: 6px;
+}
+
+#work p {
     border-bottom: 3px solid #E8E8E8;
     padding-bottom: 6px;
 }
 
 #work a, #work a:visited {
     color: #313131;
+}
+
+#work .header-col {
+    padding-top: 9px;
 }

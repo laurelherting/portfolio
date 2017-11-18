@@ -89,6 +89,13 @@ const App = () => (
                         <p className="address">
                           <span>Denver, Colorado USA</span>
                         </p>
+                        <p className="point">
+                            <span className="bullet-point">
+                                <p>
+                                    Involved in end-to-end development of a new product from the ground up, working in Node.js to build the React.js frontend and distributed Express.js
+                                </p>
+                            </span>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -102,24 +109,22 @@ const App = () => (
                             <h4>
                                 <a href="">Harmon Software Solutions</a>
                             </h4>
-                            <p className="info">                                    Software Developer
-                            </p>
+                            <p className="info">Software Developer</p>
                         </div>
                     </div>
+                    <hr />
                 </div>
             </section>
             <section id="interests">
                 <div className="row interests">
                     <div className="two columns header-col">
-                            <h1>
-                                <span>Interests</span>
-                            </h1>
+                            <h1>Interests</h1>
+                    </div>
+                    <div className="ten columns main-col">
+                        <div className="row inside">
+                            <h4>Programming Languages</h4>
                         </div>
-                        <div className="ten columns main-col">
-                            <div className="row inside">
-                                <h4>Programming Languages</h4>
-                            </div>
-                        </div>
+                    </div>
                 </div>
             </section>
         </div>
