@@ -442,3 +442,12 @@ h4 {
 #skill .skill-summary {
     margin: 0 0 10px 0;
 }
+
+footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
