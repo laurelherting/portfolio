@@ -301,7 +301,7 @@ abbr:hover { cursor: help; }
  a:visited {
    text-decoration: none;
    outline: 0;
-   color: #faa633;
+   color: #313131;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -450,4 +450,10 @@ footer {
     font-size: 14px;
     text-align: center;
     position: relative;
+}
+
+footer .social-links {
+    margin: 18px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
 }
