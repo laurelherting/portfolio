@@ -95,7 +95,9 @@ const App = () => (
             <section id="work">
                 <div className="row work">
                     <div className="two columns header-col">
-                        <h1>Work</h1>
+                        <h1>
+                            <span>Work</span>
+                        </h1>
                     </div>
                     <div className="ten columns main-col">
                         <div className="twelve columns">
@@ -114,7 +116,9 @@ const App = () => (
             <section id="interests">
                 <div className="row interests">
                     <div className="two columns header-col">
-                            <h1>Interests</h1>
+                        <h1>
+                            <span>Interests</span>
+                        </h1>
                     </div>
                     <div className="ten columns main-col">
                         <div className="row inside">
