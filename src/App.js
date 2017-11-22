@@ -122,7 +122,15 @@ const App = () => (
                     </div>
                     <div className="ten columns main-col">
                         <div className="row inside">
-                            <h4>Programming Languages</h4>
+                            <h4>
+                                <a href="">Programming Languages</a>
+                            </h4>
+                            <p className="skill-summary">
+                                Worked primarily with Javascript, with framewrorks such as React.js and Express.js.
+                            </p>
+                            <p className="skill-summary">
+                               Interested in functional programming.
+                            </p>
                         </div>
                     </div>
                 </div>
