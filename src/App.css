@@ -216,7 +216,7 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 
-header .scrolldown a:hover { color: #f40454; }
+header .scrolldown a:hover { color: #faa633; }
 
 /* header social links */
 header .social {
@@ -233,7 +233,7 @@ header .social li {
 }
 
 header .social li a { color: #fff; }
-header .social li a:hover { color: #f40454; }
+header .social li a:hover { color: #faa633; }
 
 i {
     text-align: center;
@@ -301,7 +301,7 @@ abbr:hover { cursor: help; }
  a:visited {
    text-decoration: none;
    outline: 0;
-   color: #f40454;
+   color: #faa633;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -399,7 +399,7 @@ img {
 }
 
 #work h1 span {
-    border-bottom: 3px solid #313131;
+    border-bottom: 3px solid #faa633;
     padding-bottom: 6px;
 }
 
@@ -425,7 +425,7 @@ h4 {
 }
 
 #interests h1 span {
-    border-bottom: 3px solid #313131;
+    border-bottom: 3px solid #faa633;
     padding-bottom: 6px;
 }
 
