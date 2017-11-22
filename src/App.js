@@ -122,11 +122,48 @@ const App = () => (
                     </div>
                     <div className="ten columns main-col">
                         <div className="row inside">
-                            <h4>Programming Languages</h4>
+                            <h4>
+                                <a href="">Programming Languages</a>
+                            </h4>
+                            <p className="skill-summary">
+                                Worked primarily with Javascript, with framewrorks such as React.js and Express.js.
+                            </p>
+                            <p className="skill-summary">
+                               Interested in functional programming.
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
+            <footer>
+                <div className="twelve columns">
+                    <ul className="social-links">
+                        <li>
+                            <a href="skype: +xxxxxxxxxx">
+                                <i className="fa fa-phone" />
+                            </a>
+                            <a href="mailto:-.-@gmail.com">
+                                <i className="fa fa-envelope" />
+                            </a>
+                            <a href="https://linkedin.com/in/laurelherting">
+                                <i className="fa fa-linkedin" aria-hidden="true" />
+                            </a>
+                            <a href="https://github.com/laurelherting">
+                                <i className="fa fa-github" aria-hidden="true" />
+                            </a>
+                            <a href="https://stackoverflow.com/users/8473290/lherting">
+                                <i className="fa fa-stack-overflow" />
+                            </a>
+                            <a href="https://www.quora.com/profile/Laurel-Herting">
+                                <i className="fa fa-quora" />
+                            </a>
+                            <a href="https://hub.docker.com/u/lherting">
+                                <i className="fa fa-docker" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     </div>
 </Router>
