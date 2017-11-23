@@ -23,8 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "watch": "webpack --watch"
+    "lint": "eslint ./src",
+    "watch": "webpack --watch",
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
@@ -45,6 +46,7 @@
     "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.30.1",
     "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
     "moment": "^2.18.1",
     "occurrence": "^0.0.6",
     "order": "^0.1.0",
@@ -69,5 +71,11 @@
     "webpack-dev-server": "^2.8.1",
     "webpack-merge": "^4.1.0",
     "webpack-s3-plugin": "^1.0.0-rc.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
