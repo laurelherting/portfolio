@@ -7,12 +7,10 @@ root = true
 [*]
 charset = utf-8
 end_of_line = lf
-indent_size = 4
+indent_size = 2
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
 [package.json]
-# The indent_size for `package.json` must be 2
-# https://github.com/npm/npm/issues/4718
 indent_size = 2
