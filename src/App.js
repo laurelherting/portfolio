@@ -32,8 +32,8 @@ const App = () => (
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#links">
-                  LINKS
+                <a className="smoothscroll" href="#portfolio">
+                  PORTFOLIO
                 </a>
               </li>
             </ul>
@@ -148,6 +148,13 @@ const App = () => (
                   Interested in functional programming.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio">
+          <div className="row portfolio">
+            <div className="two columns collapsed">
+              <h1>Portfolio</h1>
             </div>
           </div>
         </section>
