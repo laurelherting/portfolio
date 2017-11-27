@@ -122,8 +122,7 @@ const App = () => (
                 <p className="info">Software Developer</p>
                 <p>
                   Involved in end-to-end development of a new product from the
-                  ground up, working in Node.js to build the React.js frontend
-                  and distributed Express.js
+                  ground up, using AWS, React, and Node.js.
                 </p>
               </div>
             </div>
