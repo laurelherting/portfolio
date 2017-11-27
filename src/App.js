@@ -32,8 +32,8 @@ const App = () => (
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#links">
-                  LINKS
+                <a className="smoothscroll" href="#portfolio">
+                  PORTFOLIO
                 </a>
               </li>
             </ul>
@@ -122,8 +122,7 @@ const App = () => (
                 <p className="info">Software Developer</p>
                 <p>
                   Involved in end-to-end development of a new product from the
-                  ground up, working in Node.js to build the React.js frontend
-                  and distributed Express.js
+                  ground up, using AWS, React, and Node.js.
                 </p>
               </div>
             </div>
@@ -148,6 +147,13 @@ const App = () => (
                   Interested in functional programming.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio">
+          <div className="row portfolio">
+            <div className="two columns collapsed">
+              <h1>Portfolio</h1>
             </div>
           </div>
         </section>
