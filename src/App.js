@@ -146,6 +146,11 @@ const App = () => (
                 <p className="skill-summary">
                   Interested in functional programming.
                 </p>
+                <div className="bars">
+                  <li>
+                    <em>Javascript</em>
+                  </li>
+                </div>
               </div>
             </div>
           </div>
