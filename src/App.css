@@ -78,7 +78,7 @@ body {
   color: #FFFFFF;
 }
 
-div, h2, h3, h4, p, ul, li, ol, caption, header, section, p {
+div, h2, h3, h4, p, ul, li, ol, caption, header, section, em, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -244,6 +244,8 @@ li {
   margin: 1em;
   display: inline;
   letter-spacing: 2em;
+  line-height: 18px;
+  margin-bottom: 12px;
 }
 
 /* top navigation bar */
@@ -418,9 +420,55 @@ img {
   padding-top: 9px;
 }
 
+/* bars on interests section */
+.bars {
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left;
+  background: rgb(49, 49, 49);
+}
+
+.percentage90 {
+  width: 90%;
+  -webkit-animation: percentage90 2s ease;
+}
+
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
+}
+
+.bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+  }
+
+.bars li em {
+  font: 15px 'opensans-bold', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
 #interests {
   padding-top: 10px;
-  padding-bottom: 140px;
+  padding-bottom: 200px;
 }
 
 #interests h4 {
