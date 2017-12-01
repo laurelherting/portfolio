@@ -147,9 +147,13 @@ const App = () => (
                   Interested in functional programming.
                 </p>
                 <div className="bars">
-                  <li>
-                    <em>Javascript</em>
-                  </li>
+                  <ul className="skills">
+                    <li>
+                      <span className="bar-expand percentage90">
+                        <em>Javascript</em>
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
