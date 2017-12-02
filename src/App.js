@@ -139,15 +139,15 @@ const App = () => (
             <div className="ten columns main-col">
               <div className="row inside">
                 <h4>Programming Languages</h4>
-                <p className="skill-summary">
+                <p className="interests-summary">
                   Worked primarily with Javascript, with framewrorks such as
                   React.js and Express.js.
                 </p>
-                <p className="skill-summary">
+                <p className="interests-summary">
                   Interested in functional programming.
                 </p>
                 <div className="bars">
-                  <ul className="skills">
+                  <ul className="interests">
                     <li>
                       <span className="bar-expand percentage90">
                         <em>Javascript</em>
