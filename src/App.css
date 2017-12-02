@@ -375,6 +375,12 @@ img {
   margin: 0 auto;
 }
 
+.row .row {
+  width: auto;
+  max-width: none;
+  margin: 0 -20px;
+}
+
 /* column widths */
 .row .two {
   width: 16.66667%;
@@ -466,13 +472,13 @@ img {
   left: 10px;
 }
 
+#interests .inside {
+  padding: 0 20px;
+}
+
 #interests {
   padding-top: 10px;
   padding-bottom: 200px;
-}
-
-#interests h4 {
-  font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 h4 {
@@ -496,7 +502,7 @@ h4 {
   font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#interests .skill-summary {
+#interests .interests-summary {
   margin: 0 0 10px 0;
 }
 
