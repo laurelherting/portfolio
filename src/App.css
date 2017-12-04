@@ -57,6 +57,11 @@
         font-family: a;
 }
 
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
 body {
   background: #fff;
   font-family: 'opensans-regular', sans-serif;
@@ -161,7 +166,11 @@ h2 {
   margin: 2em 0 1em 0;
 }
 
-/* first page sytle */
+
+/* ------------------------------------------------------------------ */
+/* Header Styles-first page
+/* ------------------------------------------------------------------ */
+
 header {
   height: 770px;
   position: relative;
@@ -248,7 +257,12 @@ li {
   margin-bottom: 12px;
 }
 
-/* top navigation bar */
+
+/*
+  Primary navigation-top navigation bar
+---------------------------------------------------------------------
+ */
+
 #nav-wrap {
   font: 12px 'opensans bold', sans-serif;
   width: 100%;
@@ -312,6 +326,11 @@ abbr:hover { cursor: help; }
 
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
+
+
+/* ------------------------------------------------------------------ */
+/* About Section
+/* ------------------------------------------------------------------ */
 
 #about {
   background: #2B2B2B;
@@ -390,7 +409,11 @@ img {
   width: 83.33333%;
 }
 
-/* work section */
+
+/* ------------------------------------------------------------------ */
+/*  Work Section
+/* ------------------------------------------------------------------ */
+
 #work {
   background: #fff;
   padding-top: 90px;
@@ -426,18 +449,96 @@ img {
   padding-top: 9px;
 }
 
-/* bars on interests section */
-.bars {
-  width: 95%;
-  float: left;
-  padding: 0;
-  text-align: left;
-  background: rgb(49, 49, 49);
+
+/* ------------------------------------------------------------------ */
+/*  Interest Section
+/* ------------------------------------------------------------------ */
+
+#interest {
+   background: #fff;
+   padding-top: 72px;
+   padding-bottom: 20px;
+   overflow: hidden;
 }
 
-.percentage90 {
-  width: 90%;
-  -webkit-animation: percentage90 2s ease;
+#interest a, #interest a:visited  { color: #11ABB0; }
+#interest a:hover, #interest a:focus { color: #313131; }
+
+#interest h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#interest h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#interest h4 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#interest .header-col { padding-top: 9px; }
+#interest .main-col { padding-right: 10%; }
+
+#interest .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#interest .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#interest .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+#interest .point {
+   margin: 0 0 10px 0;
+}
+#interest .inside {
+   padding: 0 20px;
+}
+
+#interest .interest-summary {
+  margin: 0 0 10px 0;
+}
+
+
+/*----------------------------------------------*/
+/*	Interest Bars
+/*----------------------------------------------*/
+
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+
+.bars .interests {
+  margin-top: 36px;
+  list-style: none;
+}
+
+.bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+}
+
+.bars li em {
+  font: 15px 'opensans-bold', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 .bar-expand {
@@ -453,58 +554,21 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-.bars li {
-  position: relative;
-  margin-bottom: 60px;
-  background: #ccc;
-  height: 42px;
-  border-radius: 3px;
-  }
-
-.bars li em {
-  font: 15px 'opensans-bold', sans-serif;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: normal;
-  position: relative;
-  top: 10px;
-  left: 10px;
+.percentage90 {
+  width: 90%;
+  -moz-animation: percentage90 2s ease;
+  -webkit-animation: percentage90 2s ease;
 }
 
-#interests .inside {
-  padding: 0 20px;
+@-moz-keyframes percentage90 {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
 }
 
-#interests {
-  padding-top: 10px;
-  padding-bottom: 200px;
-}
 
-h4 {
-  font: 25px/30px 'opensans-bold', sans-serif;
-  margin-bottom: 12px;
-}
-
-#interests h1 span {
-  font: 18px/24px 'opensans-bold', sans-serif;
-  border-bottom: 3px solid #faa633;
-  padding-bottom: 6px;
-}
-
-#interests h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-#interests h4 {
-  font: 25px/30px 'opensans-bold', sans-serif;
-}
-
-#interests .interests-summary {
-  margin: 0 0 10px 0;
-}
+/* ------------------------------------------------------------------ */
+/*  Portfolio Section
+/* ------------------------------------------------------------------ */
 
 #portfolio {
   background: #ebeeee;
@@ -521,6 +585,11 @@ h4 {
   margin-bottom: 48px;
   color: #95A3A3;
 }
+
+
+/* ------------------------------------------------------------------ */
+/* Footer
+/* ------------------------------------------------------------------ */
 
 footer {
   padding-top: 48px;
