@@ -139,11 +139,11 @@ const App = () => (
             <div className="ten columns main-col">
               <div className="row inside">
                 <h4>Programming Languages</h4>
-                <p className="interests-summary">
+                <p className="interest-summary">
                   Worked primarily with Javascript, with framewrorks such as
                   React.js and Express.js.
                 </p>
-                <p className="interests-summary">
+                <p className="interest-summary">
                   Interested in functional programming.
                 </p>
                 <div className="bars">
