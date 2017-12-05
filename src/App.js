@@ -146,17 +146,9 @@ const App = () => (
                 <p className="interest-summary">
                   Interested in functional programming.
                 </p>
-                <div className="bars">
-                  <ul className="interests">
-                    <li>
-                      <span className="bar-expand percentage90">
-                        <em>Javascript</em>
-                      </span>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
+            <hr />
           </div>
         </section>
         <section id="portfolio">
