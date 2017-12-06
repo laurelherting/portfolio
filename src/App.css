@@ -422,7 +422,7 @@ img {
 }
 
 #work h4 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 25/30px 'opensans-bold', sans-serif;
 }
 
 #work h1 {
@@ -451,46 +451,48 @@ img {
 
 
 /* ------------------------------------------------------------------ */
-/*  Interest Section
+/*  Interests Section
 /* ------------------------------------------------------------------ */
 
-#interest {
+#interests {
    background: #fff;
    padding-top: 72px;
    padding-bottom: 20px;
    overflow: hidden;
 }
 
-#interest a, #interest a:visited  { color: #11ABB0; }
+#interest a, #interest a:visited  { color: #faa633; }
 #interest a:hover, #interest a:focus { color: #313131; }
 
-#interest h1 {
+#interests h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#interest h1 span {
-   border-bottom: 3px solid #11ABB0;
+#interests h1 span {
+   border-bottom: 3px solid #faa633;
    padding-bottom: 6px;
 }
-#interest h4 {
+
+#interests h4 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#interest .header-col { padding-top: 9px; }
-#interest .main-col { padding-right: 10%; }
+#interests .header-col { padding-top: 9px; }
+#interests .main-col { padding-right: 10%; }
 
-#interest .info {
+#interests.info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#interest .info span {
+
+#interests .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#interest .date {
+#interests .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -501,16 +503,17 @@ img {
    padding: 0 20px;
 }
 
-#interest .interest-summary {
+#interests .interest-summary {
   margin: 0 0 10px 0;
 }
 
 
 /*----------------------------------------------*/
-/*	Interest Bars
+/*	Interest Bars-currently unused, but may add back at future date
 /*----------------------------------------------*/
 
-.bars {
+/*
+  .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
@@ -564,7 +567,7 @@ img {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-
+*/
 
 /* ------------------------------------------------------------------ */
 /*  Portfolio Section
