@@ -117,14 +117,12 @@ const App = () => (
               </h1>
             </div>
             <div className="ten columns main-col">
-              <div className="twelve columns">
-                <h4>Harmon Software Solutions</h4>
-                <p className="info">Software Developer</p>
-                <p>
-                  Involved in end-to-end development of a new product from the
-                  ground up, using AWS, React, and Node.js.
-                </p>
-              </div>
+              <h4>Harmon Software Solutions</h4>
+              <p className="info">Software Developer</p>
+              <p>
+                Involved in end-to-end development of a new product from the
+                ground up, using AWS, React, and Node.js.
+              </p>
             </div>
             <hr />
           </div>
@@ -145,8 +143,8 @@ const App = () => (
               <p className="interest-summary">
                 Interested in functional programming.
               </p>
-              <hr />
             </div>
+            <hr />
           </div>
         </section>
         <section id="portfolio">
