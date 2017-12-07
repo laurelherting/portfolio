@@ -149,13 +149,19 @@ const App = () => (
         </section>
         <section id="portfolio">
           <div className="row portfolio">
-            <div className="two columns collapsed">
-              <h1>Portfolio</h1>
-            </div>
+            <h1>Portfolio</h1>
           </div>
         </section>
         <footer>
-          <div />
+          <div className="row">
+            <div className="twelve columns">
+              <div id="go-top">
+                <a className="smoothscroll" title="Back to Top" href="#home">
+                  <i>icon-up-open</i>
+                </a>
+              </div>
+            </div>
+          </div>
         </footer>
       </div>
     </div>
