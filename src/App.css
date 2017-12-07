@@ -359,7 +359,7 @@ p a, p a:visited { line-height: inherit; }
 /* row clearing */
 .column, .columns {
   position: relative;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   min-height: 1px;
   float: left;
 }
@@ -422,7 +422,7 @@ img {
 }
 
 #work h4 {
-  font: 25/30px 'opensans-bold', sans-serif;
+  font: 18px/24px 'opensans-bold', sans-serif;
 }
 
 #work h1 {
@@ -509,11 +509,10 @@ img {
 
 
 /*----------------------------------------------*/
-/*	Interest Bars-currently unused, but may add back at future date
+/*	Interest Bars
 /*----------------------------------------------*/
 
-/*
-  .bars {
+/* .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
