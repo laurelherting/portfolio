@@ -532,6 +532,14 @@ img {
   color: #95A3A3;
 }
 
+.portfolio-item {
+}
+
+#portfolio-pic {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* Footer
