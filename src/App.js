@@ -153,6 +153,14 @@ const App = () => (
           <div className="row portfolio">
             <h1>Portfolio</h1>
           </div>
+          <div className="portfolio-item">
+            <img
+              src="src/assets/portfolioItem.png"
+              alt="laurelherting.github.io/portfolio"
+            />
+            <h5>laurelherting.github.io/portfolio</h5>
+            <p>Web</p>
+          </div>
         </section>
         <footer>
           <div className="row">
