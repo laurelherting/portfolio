@@ -313,15 +313,15 @@ i [className^="arrow-"]:before, [className*=" arrow-"]:before {
 abbr:hover { cursor: help; }
 
 /* Links - hover */
- a:visited {
-   text-decoration: none;
-   outline: 0;
-   color: #313131;
+a:visited {
+  text-decoration: none;
+  outline: 0;
+  color: #313131;
 
-   -webkit-transition: color .3s ease-in-out;
-   -moz-transition: color .3s ease-in-out;
-   -o-transition: color .3s ease-in-out;
-   transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
 }
 
 a:hover, a:focus { color: #313131; }
@@ -535,16 +535,30 @@ img {
 footer {
   padding-top: 48px;
   padding-bottom: 48px;
-  color: #303030;
+  color: #808080;
   font-size: 14px;
   text-align: center;
   position: relative;
+  background-color: #303030;
 }
 
-footer .social-links {
+footer .social {
   margin: 18px 0 30px 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 35px;
+  color: #808080;
+  width: 100%
+}
+
+footer .social a:hover { color: #faa633; }
+
+footer a {
+  color: #606060;
+}
+
+footer .copyright {
+  margin: 0;
+  padding: 0;
 }
 
 #go-top a {
@@ -563,8 +577,8 @@ footer .social-links {
 
 #go-top {
   position: absolute;
-  top: -74px;
+  top: -30px;
   left: 50%;
-  margin-left: 474px;
+  margin-left: -30px;
 }
 
