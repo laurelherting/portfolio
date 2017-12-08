@@ -98,7 +98,7 @@ div {
 }
 
 /* down arrow */
-i .chevron-down-circle {
+i .chevron {
   background-color: white;
   border-radius: 50%;
   border: 1px solid grey;
@@ -120,7 +120,7 @@ i .chevron-down-circle {
   margin-left: .2em;
 }
 
-#chevron :hover {
+#go-bottom a:hover {
   background-color: #faa633;
   border-radius: 100%;
 }
