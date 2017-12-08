@@ -554,8 +554,8 @@ footer .social-links {
   width: 60px;
   height: 60px;
   background-color: #525252;
-  color: #fff;
   transition: all 0.2s ease-in-out;
+  color: #fff;
   font-size:24px;
   line-height: 60px;
   border-radius: 100%;
@@ -565,6 +565,6 @@ footer .social-links {
   position: absolute;
   top: -74px;
   left: 50%;
-  margin-left: 474px;
+  margin-left: 470px;
 }
 
