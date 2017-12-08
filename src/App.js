@@ -72,7 +72,7 @@ const App = () => (
             </ul>
           </div>
           <a className="smoothscroll" href="#about">
-            <i className="fa fa-arrow-circle-down" aria-hidden="true" />
+            <i className="fa fa-chevron-down" aria-hidden="true" />
           </a>
         </div>
       </header>
@@ -157,7 +157,7 @@ const App = () => (
             <div className="twelve columns">
               <div id="go-top">
                 <a className="smoothscroll" title="Back to Top" href="#home">
-                  <i>icon-up-open</i>
+                  <i className="fa fa-chevron-circle-up" aria-hidden="true" />
                 </a>
               </div>
             </div>
