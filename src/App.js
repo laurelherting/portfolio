@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import './App.css';
 import profilePic from './assets/profilePic.png';
+import portfolioItem from './assets/portfolioItem.png';
 
 const App = () => (
   <Router>
@@ -150,16 +151,14 @@ const App = () => (
           </div>
         </section>
         <section id="portfolio">
-          <div className="row portfolio">
+          <div className="row">
             <h1>Portfolio</h1>
           </div>
-          <div className="portfolio-item">
+          <div className="portfolioItem">
             <img
-              src="src/assets/portfolioItem.png"
+              src={portfolioItem.png}
               alt="laurelherting.github.io/portfolio"
             />
-            <h5>laurelherting.github.io/portfolio</h5>
-            <p>Web</p>
           </div>
         </section>
         <footer>
