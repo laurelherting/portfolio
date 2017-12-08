@@ -72,7 +72,7 @@ const App = () => (
             </ul>
           </div>
           <a className="smoothscroll" href="#about">
-            <i className="fa fa-chevron-down" aria-hidden="true" />
+            <i id="chevron" className="fa fa-chevron-down" aria-hidden="true" />
           </a>
         </div>
       </header>
