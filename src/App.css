@@ -83,7 +83,7 @@ body {
   color: #FFFFFF;
 }
 
-div, h2, h3, h4, p, ul, li, ol, caption, header, section, em, p {
+div, h2, h3, h4, p, ul, li, ol, caption, header, section, em, p, footer {
   margin: 0;
   padding: 0;
   border: 0;
@@ -554,17 +554,17 @@ footer .social-links {
   width: 60px;
   height: 60px;
   background-color: #525252;
-  color: #fff;
   transition: all 0.2s ease-in-out;
-  font-size:21px;
+  color: #fff;
+  font-size:24px;
   line-height: 60px;
   border-radius: 100%;
 }
 
 #go-top {
   position: absolute;
-  top: -24px;
+  top: -74px;
   left: 50%;
-  margin-left: -30px;
+  margin-left: 470px;
 }
 
