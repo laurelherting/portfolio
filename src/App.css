@@ -98,7 +98,7 @@ div {
 }
 
 /* down arrow */
-i icon-down-circle:before {
+i .chevron-down-circle {
   background-color: white;
   border-radius: 50%;
   border: 1px solid grey;
@@ -118,6 +118,11 @@ i icon-down-circle:before {
   text-transform: none;
   line-height: 1em;
   margin-left: .2em;
+}
+
+#chevron :hover {
+  background-color: #faa633;
+  border-radius: 100%;
 }
 
 /* top navigation bar */
@@ -556,9 +561,12 @@ footer a {
   color: #606060;
 }
 
-footer .copyright {
+footer p {
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-stretch: ultra-expanded;
 }
 
 #go-top a {
@@ -580,5 +588,9 @@ footer .copyright {
   top: -30px;
   left: 50%;
   margin-left: -30px;
+}
+
+#go-top a:hover {
+  background-color: #faa633;
 }
 
