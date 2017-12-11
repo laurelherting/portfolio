@@ -532,12 +532,15 @@ img {
   color: #95A3A3;
 }
 
-.portfolio-item {
-}
-
-#portfolio-pic {
-  max-width: 100%;
-  vertical-align: bottom;
+/* image */
+#portfolio .portfolioItem {
+  margin: 0;
+  padding: 36px 0 36px 0;
+  position: relative;
+  background: url(./assets/portfolioItem.png) no-repeat top center;
+  background-size: 150px;
+  background-position: center;
+	color: transparent;
 }
 
 
