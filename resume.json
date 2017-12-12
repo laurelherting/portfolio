@@ -1,0 +1,148 @@
+{
+  "basics": {
+    "name": "Laurel Herting",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "laurel.herting@gmail.com",
+    "website": "https://laurelherting.github.io/portfolio",
+    "summary": "",
+    "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Denver",
+            "state": "Colorado",
+            "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "laurelherting",
+        "url": "https://www.linkedin.com/in/laurelherting"
+      },
+      {
+        "network": "GitHub",
+        "username": "laurelherting",
+        "url": "https://github.com/laurelherting"
+      },
+      {
+          "network": "Stack Overflow",
+          "username": "lherting",
+          "url": "https://stackoverflow.com/users/8473290/lherting"
+      },
+      {
+          "network": "Quora",
+          "username": "Laurel Herting",
+          "url": "https://www.quora.com/profile/Laurel_Herting"
+      }
+    ]
+  },
+  "work": [
+         {
+             "company": "Harmon Software Solutions",
+             "position": "Mentorship",
+             "website": "",
+             "startDate": "03-2017",
+             "endDate": "Present",
+             "location": "San Francisco, CA",
+             "highlights": [
+                 "Design and Implement effective and elegant social web apps from back-end API to front-end UI. Develop reusable, cross-platform components in HTML, CSS, & Javascript -- while leveraging the best open source platforms (React). Contributing to team discussions around system component design, improvement and integration. Work in an Agile environment to deliver high quality software with time schedules."
+             ]
+         }
+     ],
+     "volunteer": [
+         {
+             "organization": "Whiz Kids",
+             "position": "Computer & Math Volunteer Tutor",
+             "website": "https://www.whizkidstutoring.com/",
+             "startDate": "07/2014",
+             "endDate": "06/2016",
+             "summary": "Provide instructional support to students outside the classroom and help them improve their computer science knowledge. Discovering new ways to improve students’ academic performance in math, using technology programs, conducting tutorial sessions, and maintaining student academic growth and attendance records. Important skills include instructional abilities, patience, effective communication, knowledge in their given field, and time management.",
+             "highlights": [
+                 "Awarded 'Volunteer of the Month', Grade level acadmic growth"
+             ]
+         }
+     ],
+     "education": [
+         {
+             "institution": "University",
+             "area": "Education and Psychology",
+             "degreeType": "Bachelor of Science",
+             "startDate": "08/2005",
+             "endDate": "05/2009",
+             "gpa": "3.75",
+             "courses": [
+                 "DB1101 - Basic SQL"
+             ]
+         }
+     ],
+
+     "education": [
+         {
+             "institution": "University",
+             "area": "Education",
+             "degreeType":"Master of Arts Education",
+             "startDate": "08/2009",
+             "endDate": "05/2012",
+             "gpa": "3.97",
+             "courses": [
+                 "Computer"
+             ]
+         }
+     ],
+     "awards": [
+         {
+             "title": "Student Ambassador Award",
+             "date": "02/2009",
+             "awarder": "Western CT State University",
+             "summary": "Awarded for exemplary performance."
+         }
+     ],
+     "publications": [
+         {
+             "name": "Pyschology Research Publication",
+             "publisher": "Educational Psychology",
+             "releaseDate": "05/2009",
+             "website": "",
+             "summary": "Description..."
+         }
+     ],
+     "skills": [
+         {
+             "name": "Web Development",
+             "level": "Entry",
+             "keywords": [
+                 "HTML",
+                 "CSS",
+                 "Javascript",
+                 "REACT"
+             ]
+         }
+     ],
+     "languages": [
+         {
+             "name": "English",
+             "level": "Native speaker"
+         }
+     ],
+     "interests": [
+         {
+             "name": "Wildlife",
+             "keywords": [
+                 "Hedgehogs",
+                 "Bears"
+             ]
+         },
+         {
+             "name": "New Technologies",
+             "keywords": [
+                 "JavaScript"
+             ]
+         }
+     ],
+     "references": [
+         {
+             "name": "Jane Doe",
+             "reference": "Reference..."
+         }
+     ]
+ }
