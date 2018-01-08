@@ -9,35 +9,39 @@ const App = () => (
     <div>
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
-          <div className="App">
-            <ul id="nav" className="nav">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            Show navigation
+          </a>
+          <a className="mobile-btn" href="#nav" title="Hide navigation">
+            ::before Hide navigation ::after
+          </a>
+          <ul id="nav" className="nav">
+            <li>
+              <a className="smoothscroll" href="#home">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#about">
+                ABOUT
+              </a>
+            </li>
+            <li>
               <li>
-                <a className="smoothscroll" href="#home">
-                  HOME
+                <a className="smoothscroll" href="#work">
+                  WORK
                 </a>
               </li>
-              <li>
-                <a className="smoothscroll" href="#about">
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <li>
-                  <a className="smoothscroll" href="#work">
-                    WORK
-                  </a>
-                </li>
-                <a className="smoothscroll" href="#interests">
-                  INTERESTS
-                </a>
-              </li>
-              <li>
-                <a className="smoothscroll" href="#portfolio">
-                  PORTFOLIO
-                </a>
-              </li>
-            </ul>
-          </div>
+              <a className="smoothscroll" href="#interests">
+                INTERESTS
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#portfolio">
+                PORTFOLIO
+              </a>
+            </li>
+          </ul>
         </nav>
         <div className="row banner">
           ::before
