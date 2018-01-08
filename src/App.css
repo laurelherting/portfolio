@@ -279,6 +279,8 @@ li {
   letter-spacing: 2.5px;
 }
 
+header #nav li a:hover { color: #faa633; }
+
 ul {
   list-style: none outside;
 }
