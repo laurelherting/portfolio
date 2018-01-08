@@ -1,4 +1,15 @@
 @media only screen and (max-width: 767px)
+#nav-wrap {
+  font: 12px 'opensans-bold', sans-serif;
+  background: transparent !important;
+  letter-spacing: 1.5px;
+  width: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 767px)
 #nav-wrap:not( :target ) > a:first-of-type, #nav-wrap:target > a:last-of-type {
     display: block;
 }
