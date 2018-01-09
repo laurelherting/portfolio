@@ -1,3 +1,9 @@
+@media only screen and (min-width: 730px) {
+  .ul#nav {
+    max-width: 720px;
+    justify-content: flex-end;
+  }
+}
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -77,6 +83,7 @@ ul#nav {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  justify-content: flex-start;
 }
 
 /* social links */
