@@ -1,7 +1,9 @@
-@media only screen and (min-width: 730px) {
+@media screen (max-width: 730px) {
   .ul#nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 720px;
-    justify-content: flex-end;
   }
 }
 
@@ -83,7 +85,6 @@ ul#nav {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  justify-content: flex-start;
 }
 
 /* social links */
