@@ -27,16 +27,12 @@ const App = () => (
               </a>
             </li>
             <li>
-              <li>
-                <a className="smoothscroll" href="#work">
-                  WORK
-                </a>
-              </li>
+              <a className="smoothscroll" href="#work">
+                WORK
+              </a>
               <a className="smoothscroll" href="#interests">
                 INTERESTS
               </a>
-            </li>
-            <li>
               <a className="smoothscroll" href="#portfolio">
                 PORTFOLIO
               </a>
