@@ -9,12 +9,6 @@ const App = () => (
     <div>
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#nav" title="Hide navigation">
-            ::before Hide navigation ::after
-          </a>
           <ul id="nav" className="nav">
             <li>
               <a className="smoothscroll" href="#home">
