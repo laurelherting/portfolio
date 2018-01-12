@@ -9,7 +9,7 @@ const App = () => (
     <div>
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
-          <ul id="nav" className="nav">
+          <ul id="navWide" className="nav">
             <li>
               <a className="smoothscroll" href="#home">
                 HOME
@@ -32,9 +32,38 @@ const App = () => (
               </a>
             </li>
           </ul>
+          <ul id="navNarrow" className="nav">
+            <i className="fa fa-bars fa-2x" onlClick={this.burgerToggle} />
+            <div className="narrowLinks">
+              <li>
+                <a href="#home" onClick={this.burgerToggle}>
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="#about" onClick={this.burgerToggle}>
+                  ABOUT
+                </a>
+              </li>
+              <li>
+                <a href="#work" onClick={this.burgerToggle}>
+                  WORK
+                </a>
+              </li>
+              <li>
+                <a href="#interests" onClick={this.burgerToggle}>
+                  INTERESTS
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" onClick={this.burgerToggle}>
+                  PORTFOLIO
+                </a>
+              </li>
+            </div>
+          </ul>
         </nav>
         <div className="row banner">
-          ::before
           <div className="banner-text">
             <h2 className="responsive-headline">Laurel Herting</h2>
           </div>
