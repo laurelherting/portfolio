@@ -6,6 +6,7 @@ import profilePic from './assets/profilePic.png';
 
 const App = () => (
   <Router>
+    return {
     <div>
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
@@ -63,6 +64,15 @@ const App = () => (
             </div>
           </ul>
         </nav>
+	},
+  burgerToggle() {
+    const linksEl = document.querySelector('.narrowLinks');
+    if (linksEl.style.display === 'block') {
+    linksEl.style.display = 'none';
+    } else {
+    linksEl.style.display = 'block';
+    }
+  }
         <div className="row banner">
           <div className="banner-text">
             <h2 className="responsive-headline">Laurel Herting</h2>
