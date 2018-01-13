@@ -4,9 +4,17 @@ import 'font-awesome/css/font-awesome.css';
 import './App.css';
 import profilePic from './assets/profilePic.png';
 
+const burgerToggle = () => {
+  const linksEl = document.querySelector('.narrowLinks');
+  if (linksEl.style.display === 'block') {
+    linksEl.style.display = 'none';
+  } else {
+    linksEl.style.display = 'block';
+  }
+};
+
 const App = () => (
   <Router>
-    return {
     <div>
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
@@ -34,45 +42,36 @@ const App = () => (
             </li>
           </ul>
           <ul id="navNarrow" className="nav">
-            <i className="fa fa-bars fa-2x" onlClick={this.burgerToggle} />
+            <i className="fa fa-bars fa-2x" onClick={burgerToggle} />
             <div className="narrowLinks">
               <li>
-                <a href="#home" onClick={this.burgerToggle}>
+                <a href="#home" onClick={burgerToggle}>
                   HOME
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={this.burgerToggle}>
+                <a href="#about" onClick={burgerToggle}>
                   ABOUT
                 </a>
               </li>
               <li>
-                <a href="#work" onClick={this.burgerToggle}>
+                <a href="#work" onClick={burgerToggle}>
                   WORK
                 </a>
               </li>
               <li>
-                <a href="#interests" onClick={this.burgerToggle}>
+                <a href="#interests" onClick={burgerToggle}>
                   INTERESTS
                 </a>
               </li>
               <li>
-                <a href="#portfolio" onClick={this.burgerToggle}>
+                <a href="#portfolio" onClick={burgerToggle}>
                   PORTFOLIO
                 </a>
               </li>
             </div>
           </ul>
         </nav>
-	},
-  burgerToggle() {
-    const linksEl = document.querySelector('.narrowLinks');
-    if (linksEl.style.display === 'block') {
-    linksEl.style.display = 'none';
-    } else {
-    linksEl.style.display = 'block';
-    }
-  }
         <div className="row banner">
           <div className="banner-text">
             <h2 className="responsive-headline">Laurel Herting</h2>
