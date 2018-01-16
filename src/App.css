@@ -472,13 +472,16 @@ img {
    margin-right: 5px;
    margin-left: 5px;
 }
+
 #interests .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
 #interest .point {
    margin: 0 0 10px 0;
 }
+
 #interest .inside {
    padding: 0 20px;
 }
@@ -580,4 +583,3 @@ footer p {
 #go-top a:hover {
   background-color: #faa633;
 }
-
