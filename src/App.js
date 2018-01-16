@@ -4,18 +4,21 @@ import 'font-awesome/css/font-awesome.css';
 import './App.css';
 import profilePic from './assets/profilePic.png';
 
+const burgerToggle = () => {
+  const linksEl = document.querySelector('.narrowLinks');
+  if (linksEl.style.display === 'block') {
+    linksEl.style.display = 'none';
+  } else {
+    linksEl.style.display = 'block';
+  }
+};
+
 const App = () => (
   <Router>
     <div>
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#nav" title="Hide navigation">
-            ::before Hide navigation ::after
-          </a>
-          <ul id="nav" className="nav">
+          <ul id="navWide" className="nav">
             <li>
               <a className="smoothscroll" href="#home">
                 HOME
@@ -27,24 +30,49 @@ const App = () => (
               </a>
             </li>
             <li>
-              <li>
-                <a className="smoothscroll" href="#work">
-                  WORK
-                </a>
-              </li>
+              <a className="smoothscroll" href="#work">
+                WORK
+              </a>
               <a className="smoothscroll" href="#interests">
                 INTERESTS
               </a>
-            </li>
-            <li>
               <a className="smoothscroll" href="#portfolio">
                 PORTFOLIO
               </a>
             </li>
           </ul>
+          <ul id="navNarrow" className="nav">
+            <i className="fa fa-bars fa-2x" onClick={burgerToggle} />
+            <div className="narrowLinks">
+              <li>
+                <a href="#home" onClick={burgerToggle}>
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="#about" onClick={burgerToggle}>
+                  ABOUT
+                </a>
+              </li>
+              <li>
+                <a href="#work" onClick={burgerToggle}>
+                  WORK
+                </a>
+              </li>
+              <li>
+                <a href="#interests" onClick={burgerToggle}>
+                  INTERESTS
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" onClick={burgerToggle}>
+                  PORTFOLIO
+                </a>
+              </li>
+            </div>
+          </ul>
         </nav>
         <div className="row banner">
-          ::before
           <div className="banner-text">
             <h2 className="responsive-headline">Laurel Herting</h2>
           </div>
