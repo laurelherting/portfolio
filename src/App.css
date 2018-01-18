@@ -102,7 +102,7 @@ ul#navNarrow {
     display: none;
   }
 
-    {
+    a {
       text-decoration: none;
       display: block;
       float: right;
