@@ -19,31 +19,33 @@ const App = () => (
       <header id="home" className="height: 753px;">
         <nav id="nav-wrap" className="opaque">
           <ul id="navWide" className="nav">
-            <li>
-              <a className="smoothscroll" href="#home">
-                HOME
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about">
-                ABOUT
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#work">
-                WORK
-              </a>
-              <a className="smoothscroll" href="#interests">
-                INTERESTS
-              </a>
-              <a className="smoothscroll" href="#portfolio">
-                PORTFOLIO
-              </a>
-            </li>
+            <div className="wideDiv">
+              <li>
+                <a className="smoothscroll" href="#home">
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a className="smoothscroll" href="#about">
+                  ABOUT
+                </a>
+              </li>
+              <li>
+                <a className="smoothscroll" href="#work">
+                  WORK
+                </a>
+                <a className="smoothscroll" href="#interests">
+                  INTERESTS
+                </a>
+                <a className="smoothscroll" href="#portfolio">
+                  PORTFOLIO
+                </a>
+              </li>
+            </div>
           </ul>
           <ul id="navNarrow" className="nav">
             <i className="fa fa-bars fa-2x" onClick={burgerToggle} />
-            <div className="narrowLinks">
+            <div className="narrowLinks" style={{ display: 'none' }}>
               <li>
                 <a href="#home" onClick={burgerToggle}>
                   HOME
@@ -171,7 +173,7 @@ const App = () => (
             <div className="ten columns main-col">
               <h4>Programming Languages</h4>
               <p className="interest-summary">
-                Worked primarily with Javascript, with framewrorks such as
+                Worked primarily with Javascript, with frameworks such as
                 React.js and Express.js.
               </p>
               <p className="interest-summary">
