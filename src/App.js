@@ -44,7 +44,9 @@ const App = () => (
             </div>
           </ul>
           <ul id="navNarrow" className="nav">
-            <i className="fa fa-bars fa-2x" onClick={burgerToggle} />
+            <button onClick={burgerToggle}>
+              <i className="fa fa-bars fa-2x" />
+            </button>
             <div className="narrowLinks" style={{ display: 'none' }}>
               <li>
                 <a href="#home" onClick={burgerToggle}>
