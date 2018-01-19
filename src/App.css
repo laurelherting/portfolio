@@ -1,4 +1,7 @@
-@media (min-width: 480px) {
+/* Mobile Support */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px) {
   nav {
     .navWide {
       display: block;
@@ -9,6 +12,7 @@
     }
   }
 }
+
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -49,6 +53,7 @@ div {
   display: block;
 }
 
+
 /* down arrow */
 i .chevron {
   background-color: white;
@@ -77,11 +82,12 @@ i .chevron {
   border-radius: 100%;
 }
 
-/* top navigation bar */
+
+/* top navigation bar, hamburger toggle*/
 ul#navWide {
   display: none;
   min-height: 48px;
-  color: #FFFFFF;
+  color: #FFF;
   background-color: #7b7976;
   width: 100%;
   list-style-type: none;
