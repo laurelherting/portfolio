@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import './App.css';
 import profilePic from './assets/profilePic.png';
+import rowBanner from './rowBanner.js';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
@@ -113,6 +114,7 @@ const App = () => (
             </a>
           </div>
         </div>
+        <rowBanner />
       </header>
       <div>
         <section id="about">
