@@ -1,16 +1,14 @@
 /* Mobile Support */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px) {
-  nav {
-    .navWide {
-      display: block;
-    }
-
-    .navNarrow {
-      display: none;
-    }
-  }
+/* display on smaller screen */
+@media screen and (min-width: 0px)
+and (max-width: 400px) {
+  #navWide{ display: block; }
+}
+/* hide it on larger screens */
+@media screen and (min-width: 401px)
+and (max-width: 1024px) {
+  #navNarrow{ display: none; }
+  #nav-wrap.opaque { display: none; }
 }
 
 
