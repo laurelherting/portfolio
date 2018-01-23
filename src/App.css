@@ -1,5 +1,5 @@
 /* Mobile Support */
-/* display on smaller screen */
+/* display on mobile screen */
 @media screen and (min-width: 0px)
 and (max-width: 400px) {
   #navWide{ display: block; }
@@ -84,7 +84,9 @@ i .chevron {
 
 /* top navigation bar, hamburger toggle*/
 ul#navWide {
+  /* hides nav titles, shows hamburger only */
   display: none;
+
   min-height: 48px;
   color: #FFF;
   background-color: #7b7976;
