@@ -4,6 +4,7 @@
 and (max-width: 400px) {
   #navWide{ display: block; }
 }
+
 /* hide it on larger screens */
 @media screen and (min-width: 401px)
 and (max-width: 1024px) {
