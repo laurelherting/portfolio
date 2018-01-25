@@ -2,8 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import './App.css';
-import profilePic from './assets/profilePic.png';
 import rowBanner from './rowBanner.js';
+import About from './about.js';
+import Work from './work.js';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
@@ -117,56 +118,8 @@ const App = () => (
         <rowBanner />
       </header>
       <div>
-        <section id="about">
-          <div className="row">
-            <div className="two columns">
-              <img
-                src={profilePic}
-                className="profilePic"
-                alt="Laurel Herting"
-              />
-            </div>
-            <div className="ten columns main-col">
-              <h3>About Me</h3>
-              <p>
-                Diligent, results-driven, detailed, and articulate software
-                developer with participation creating solid application
-                architecture and coding. Passionate about problem-solving in
-                order to understand abstact concepts through strong research
-                skills resulting in innovative solutions.
-              </p>
-              <p>
-                Excellent written and verbal communication skills while
-                maintaining a positive attitude. Great at time and task
-                management, quick learning ability for deep and broad technical
-                exposure. Confident, up-to-date team player determined to
-                achieve high end user focus.
-              </p>
-              <h3>Contact Details</h3>
-              <p className="address">
-                <span>Denver, Colorado USA</span>
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="work">
-          <div className="row work">
-            <div className="two columns header-col">
-              <h1>
-                <span>Work</span>
-              </h1>
-            </div>
-            <div className="ten columns main-col">
-              <h4>Harmon Software Solutions</h4>
-              <p className="info">Software Developer</p>
-              <p>
-                Involved in end-to-end development of a new product from the
-                ground up, using AWS, React, and Node.js.
-              </p>
-            </div>
-            <hr />
-          </div>
-        </section>
+        <About />
+        <Work />
         <section id="interests">
           <div className="row interests">
             <div className="two columns header-col">
