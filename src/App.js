@@ -6,6 +6,7 @@ import rowBanner from './rowBanner.js';
 import About from './about.js';
 import Work from './work.js';
 import Copyright from './copyright.js';
+import Footer from './footer';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
@@ -147,6 +148,7 @@ const App = () => (
           </div>
           <div className="portfolioItem" />
         </section>
+        <Footer />
         <footer>
           <div className="row">
             <ul className="social">
