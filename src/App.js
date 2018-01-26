@@ -2,7 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import './App.css';
-import profilePic from './assets/profilePic.png';
+import rowBanner from './rowBanner.js';
+import About from './about.js';
+import Work from './work.js';
+import Footer from './footer';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
@@ -113,58 +116,11 @@ const App = () => (
             </a>
           </div>
         </div>
+        <rowBanner />
       </header>
       <div>
-        <section id="about">
-          <div className="row">
-            <div className="two columns">
-              <img
-                src={profilePic}
-                className="profilePic"
-                alt="Laurel Herting"
-              />
-            </div>
-            <div className="ten columns main-col">
-              <h3>About Me</h3>
-              <p>
-                Diligent, results-driven, detailed, and articulate software
-                developer with participation creating solid application
-                architecture and coding. Passionate about problem-solving in
-                order to understand abstact concepts through strong research
-                skills resulting in innovative solutions.
-              </p>
-              <p>
-                Excellent written and verbal communication skills while
-                maintaining a positive attitude. Great at time and task
-                management, quick learning ability for deep and broad technical
-                exposure. Confident, up-to-date team player determined to
-                achieve high end user focus.
-              </p>
-              <h3>Contact Details</h3>
-              <p className="address">
-                <span>Denver, Colorado USA</span>
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="work">
-          <div className="row work">
-            <div className="two columns header-col">
-              <h1>
-                <span>Work</span>
-              </h1>
-            </div>
-            <div className="ten columns main-col">
-              <h4>Harmon Software Solutions</h4>
-              <p className="info">Software Developer</p>
-              <p>
-                Involved in end-to-end development of a new product from the
-                ground up, using AWS, React, and Node.js.
-              </p>
-            </div>
-            <hr />
-          </div>
-        </section>
+        <About />
+        <Work />
         <section id="interests">
           <div className="row interests">
             <div className="two columns header-col">
@@ -191,45 +147,7 @@ const App = () => (
           </div>
           <div className="portfolioItem" />
         </section>
-        <footer>
-          <div className="row">
-            <ul className="social">
-              <li>
-                <a href="skype: +xxxxxxxxxx">
-                  <i className="fa fa-phone" />
-                </a>
-                <a href="mailto:-.-@gmail.com">
-                  <i className="fa fa-envelope" />
-                </a>
-                <a href="https://linkedin.com/in/laurelherting">
-                  <i className="fa fa-linkedin" aria-hidden="true" />
-                </a>
-                <a href="https://github.com/laurelherting">
-                  <i className="fa fa-github" aria-hidden="true" />
-                </a>
-                <a href="https://stackoverflow.com/users/8473290/lherting">
-                  <i className="fa fa-stack-overflow" />
-                </a>
-                <a href="https://www.quora.com/profile/Laurel-Herting">
-                  <i className="fa fa-quora" />
-                </a>
-                <a href="https://hub.docker.com/u/lherting">
-                  <i className="fa fa-docker" />
-                </a>
-              </li>
-            </ul>
-            <ul className="copyright">
-              <li>
-                <p> This site is developed in React.js by Laurel Herting </p>
-              </li>
-            </ul>
-            <div id="go-top">
-              <a className="smoothscroll" title="Back to Top" href="#home">
-                <i className="fa fa-chevron-circle-up" aria-hidden="true" />
-              </a>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </div>
   </Router>

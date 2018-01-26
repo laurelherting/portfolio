@@ -1,16 +1,15 @@
 /* Mobile Support */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px) {
-  nav {
-    .navWide {
-      display: block;
-    }
+/* display on mobile screen */
+@media screen and (min-width: 0px)
+and (max-width: 400px) {
+  #navWide{ display: block; }
+}
 
-    .navNarrow {
-      display: none;
-    }
-  }
+/* hide it on larger screens */
+@media screen and (min-width: 401px)
+and (max-width: 1024px) {
+  #navNarrow{ display: none; }
+  #nav-wrap.opaque { display: none; }
 }
 
 
@@ -85,7 +84,9 @@ i .chevron {
 
 /* top navigation bar, hamburger toggle*/
 ul#navWide {
+  /* hides nav titles, shows hamburger only */
   display: none;
+
   min-height: 48px;
   color: #FFF;
   background-color: #7b7976;
