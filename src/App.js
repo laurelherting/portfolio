@@ -5,7 +5,6 @@ import './App.css';
 import rowBanner from './rowBanner.js';
 import About from './about.js';
 import Work from './work.js';
-import Copyright from './copyright.js';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
@@ -174,7 +173,11 @@ const App = () => (
                 </a>
               </li>
             </ul>
-            <Copyright />
+            <ul className="copyright">
+              <li>
+                <p> This site is developed in React.js by Laurel Herting </p>
+              </li>
+            </ul>
             <div id="go-top">
               <a className="smoothscroll" title="Back to Top" href="#home">
                 <i className="fa fa-chevron-circle-up" aria-hidden="true" />
