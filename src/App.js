@@ -5,7 +5,9 @@ import './App.css';
 import rowBanner from './rowBanner.js';
 import About from './about.js';
 import Work from './work.js';
-import Footer from './footer';
+import Footer from './footer.js';
+import Interests from './interests.js';
+import Portfolio from './portfolio.js';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
@@ -121,26 +123,8 @@ const App = () => (
       <div>
         <About />
         <Work />
-        <section id="interests">
-          <div className="row interests">
-            <div className="two columns header-col">
-              <h1>
-                <span>Interests</span>
-              </h1>
-            </div>
-            <div className="ten columns main-col">
-              <h4>Programming Languages</h4>
-              <p className="interest-summary">
-                Worked primarily with Javascript, with frameworks such as
-                React.js and Express.js.
-              </p>
-              <p className="interest-summary">
-                Interested in functional programming.
-              </p>
-            </div>
-            <hr />
-          </div>
-        </section>
+        <Interests />
+        <Portfolio />
         <section id="portfolio">
           <div className="row">
             <h1>Portfolio</h1>
@@ -148,6 +132,45 @@ const App = () => (
           <div className="portfolioItem" />
         </section>
         <Footer />
+        <footer>
+          <div className="row">
+            <ul className="social">
+              <li>
+                <a href="skype: +xxxxxxxxxx">
+                  <i className="fa fa-phone" />
+                </a>
+                <a href="mailto:-.-@gmail.com">
+                  <i className="fa fa-envelope" />
+                </a>
+                <a href="https://linkedin.com/in/laurelherting">
+                  <i className="fa fa-linkedin" aria-hidden="true" />
+                </a>
+                <a href="https://github.com/laurelherting">
+                  <i className="fa fa-github" aria-hidden="true" />
+                </a>
+                <a href="https://stackoverflow.com/users/8473290/lherting">
+                  <i className="fa fa-stack-overflow" />
+                </a>
+                <a href="https://www.quora.com/profile/Laurel-Herting">
+                  <i className="fa fa-quora" />
+                </a>
+                <a href="https://hub.docker.com/u/lherting">
+                  <i className="fa fa-docker" />
+                </a>
+              </li>
+            </ul>
+            <ul className="copyright">
+              <li>
+                <p> This site is developed in React.js by Laurel Herting </p>
+              </li>
+            </ul>
+            <div id="go-top">
+              <a className="smoothscroll" title="Back to Top" href="#home">
+                <i className="fa fa-chevron-circle-up" aria-hidden="true" />
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </Router>
