@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import './App.css';
-import rowBanner from './rowBanner.js';
-import About from './about.js';
-import Work from './work.js';
-import Footer from './footer.js';
-import Interests from './interests.js';
-import Portfolio from './portfolio.js';
+import rowBanner from './components/rowBanner.js';
+import About from './components/about.js';
+import Work from './components/work.js';
+import Footer from './components/footer.js';
+import Interests from './components/interests.js';
+import Portfolio from './components/portfolio.js';
 
 const burgerToggle = () => {
   const linksEl = document.querySelector('.narrowLinks');
