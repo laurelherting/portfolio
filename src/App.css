@@ -9,9 +9,8 @@ and (max-width: 400px) {
 @media screen and (min-width: 401px)
 and (max-width: 1024px) {
   #navNarrow{ display: none; }
-  #nav-wrap.opaque { display: none; }
+  #nav-wrap.opaque{ display: none; }
 }
-
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -83,10 +82,9 @@ i .chevron {
 
 
 /* top navigation bar, hamburger toggle*/
-ul#navWide {
+ul#nav {
   /* hides nav titles, shows hamburger only */
   display: none;
-
   min-height: 48px;
   color: #FFF;
   background-color: #7b7976;
@@ -98,7 +96,7 @@ ul#navWide {
   overflow: hidden;
 }
 
-ul#navNarrow {
+/*ul#navNarrow {
   i {
     float: right;
     curser: pointer;
@@ -267,6 +265,7 @@ ul {
 }
 
 ul#navWide li a {
+  background-color: #7b7976;
   display: inline-block;
   padding: 8px 13px;
   color: #fff;
