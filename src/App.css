@@ -81,9 +81,11 @@ i .chevron {
 }
 
 
-/* top navigation bar, hamburger toggle*/
-ul#nav {
-  /* hides nav titles, shows hamburger only */
+/* top navigation bar, hamburger toggle,
+hides nav titles, shows hamburger only,
+nav=shows both hamburger & nav bar, navWide
+shows hamburger only, navNarrow shows  */
+ul#navNarrow {
   display: none;
   min-height: 48px;
   color: #FFF;
