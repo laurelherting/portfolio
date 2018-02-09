@@ -1,17 +1,16 @@
 /* Mobile Support */
-/* display on mobile screen */
+/* display on mobile screen
 @media screen and (min-width: 0px)
 and (max-width: 400px) {
   #navWide{ display: block; }
 }
 
-/* hide it on larger screens */
+/* hide it on larger screens
 @media screen and (min-width: 401px)
 and (max-width: 1024px) {
   #navNarrow{ display: none; }
-  #nav-wrap.opaque { display: none; }
+  #nav-wrap.opaque{ display: none; }
 }
-
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -82,11 +81,12 @@ i .chevron {
 }
 
 
-/* top navigation bar, hamburger toggle*/
-ul#navWide {
-  /* hides nav titles, shows hamburger only */
+/* top navigation bar, hamburger toggle,
+hides nav titles, shows hamburger only,
+nav=shows both hamburger & nav bar, navWide
+shows hamburger only, navNarrow shows  */
+ul#navNarrow {
   display: none;
-
   min-height: 48px;
   color: #FFF;
   background-color: #7b7976;
@@ -98,7 +98,7 @@ ul#navWide {
   overflow: hidden;
 }
 
-ul#navNarrow {
+/*ul#navNarrow {
   i {
     float: right;
     curser: pointer;
@@ -235,8 +235,8 @@ i {
 
 li {
   font-size: 0.6em;
-  padding: 1em;
-  margin: 1em;
+  padding: 0;
+  margin: 0;
   display: inline;
   letter-spacing: 2em;
   line-height: 18px;
@@ -267,8 +267,9 @@ ul {
 }
 
 ul#navWide li a {
+  background-color: #7b7976;
   display: inline-block;
-  padding: 8px 13px;
+  padding: 10px 0 10px;
   color: #fff;
   text-decoration: none;
   line-height: 32px;
