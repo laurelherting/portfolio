@@ -39,9 +39,13 @@ const App = () => (
                 <a className="smoothscroll" href="#work">
                   WORK
                 </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#interests">
                   INTERESTS
                 </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#portfolio">
                   PORTFOLIO
                 </a>
