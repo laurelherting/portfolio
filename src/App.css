@@ -1,11 +1,11 @@
 /* Mobile Support */
-/* display on mobile screen
+/* display on mobile screen */
 @media screen and (min-width: 0px)
 and (max-width: 400px) {
   #navWide{ display: block; }
 }
 
-/* hide it on larger screens
+/* hide it on larger screens */
 @media screen and (min-width: 401px)
 and (max-width: 1024px) {
   #navNarrow{ display: none; }
@@ -96,9 +96,7 @@ ul#navNarrow {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-}
 
-/*ul#navNarrow {
   i {
     float: right;
     curser: pointer;
@@ -260,7 +258,15 @@ li {
   letter-spacing: 2.5px;
 }
 
-header #nav li a:hover { color: #faa633; }
+header #navWide li a:hover { color: #faa633; }
+
+.wideDiv {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #7b7976;
+  word-spacing: 30px; /*not working*/
+}
 
 ul {
   list-style: none outside;
@@ -269,7 +275,7 @@ ul {
 ul#navWide li a {
   background-color: #7b7976;
   display: inline-block;
-  padding: 10px 0 10px;
+  padding: 0;
   color: #fff;
   text-decoration: none;
   line-height: 32px;
