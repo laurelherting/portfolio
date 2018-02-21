@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Portfolio = () => <div />;
+const Portfolio = () => <div className="row" />;
 
 export default Portfolio;
