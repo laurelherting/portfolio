@@ -20,9 +20,6 @@ const App = () => (
       <Interests />
       <Portfolio />
       <section id="portfolio">
-        <div className="row">
-          <h1>Portfolio</h1>
-        </div>
         <div className="portfolioItem" />
       </section>
       <Footer />
