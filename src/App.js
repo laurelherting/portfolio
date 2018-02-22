@@ -19,9 +19,6 @@ const App = () => (
       <Work />
       <Interests />
       <Portfolio />
-      <section id="portfolio">
-        <div className="portfolioItem" />
-      </section>
       <Footer />
       <footer>
         <div className="row">
