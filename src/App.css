@@ -542,7 +542,7 @@ img {
 /* Footer
 /* ------------------------------------------------------------------ */
 
-footer {
+.footer {
   padding-top: 48px;
   padding-bottom: 48px;
   color: #808080;
@@ -552,7 +552,7 @@ footer {
   background-color: #303030;
 }
 
-footer .social {
+.footer .social {
   margin: 18px 0 30px 0;
   padding: 0;
   font-size: 35px;
@@ -560,13 +560,13 @@ footer .social {
   width: 100%
 }
 
-footer .social a:hover { color: #faa633; }
+.footer .social a:hover { color: #faa633; }
 
-footer a {
+.footer a {
   color: #606060;
 }
 
-footer p {
+.footer p {
   margin: 0;
   padding: 0;
   font-size: 14px;
