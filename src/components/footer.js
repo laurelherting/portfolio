@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div>
-    <div className="row">
+    <div className="row, footer">
       <ul className="social">
         <li>
           <a href="skype: +xxxxxxxxxx">
