@@ -99,7 +99,7 @@ const Header = () => (
             <a href="https://www.quora.com/profile/Laurel-Herting">
               <i className="fa fa-quora" />
             </a>
-            <a href="https://hub.docker.com/u/lherting">
+            <a href="https://hub.docker.com/u/lherting/">
               <i className="fa fa-docker" />
             </a>
           </li>
