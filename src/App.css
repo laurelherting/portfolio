@@ -12,6 +12,15 @@ and (max-width: 1024px) {
   #nav-wrap.opaque{ display: none; }
 }
 
+/* hidden on small screens*/
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  div {
+    display: none;
+  }
+}
+
+
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
