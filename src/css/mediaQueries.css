@@ -1,18 +1,21 @@
-/* ==================================================================
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   09-12-2017
-/* ================================================================== */
+/* Mobile Support */
+/* display on mobile screen */
+@media screen and (min-width: 0px)
+and (max-width: 400px) {
+  #navWide{ display: block; }
+}
 
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
+/* hide it on larger screens */
+@media screen and (min-width: 401px)
+and (max-width: 1024px) {
+  #navNarrow{ display: none; }
+  #nav-wrap.opaque{ display: none; }
+}
 
-    /* header styles
-   ------------------------------------------------------------------ */
-   header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;
-      margin: 0 auto 12px auto;
-   }
+ /* hidden on small screens
+ If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  div {
+    display: none;
+  }
 }
