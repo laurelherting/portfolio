@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
+import './css/mediaQueries.css';
 import './App.css';
 import Header from './components/header.js';
 import rowBanner from './components/rowBanner.js';
