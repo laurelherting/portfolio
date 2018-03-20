@@ -19,3 +19,19 @@ and (max-width: 1024px) {
     display: none;
   }
 }
+
+/* If the screen size is 600px or less, set the
+.header-col to float: none; */
+@media only screen and (max-width: 600px) {
+  div .columns.header-col {
+    float: none;
+  }
+}
+
+/* If the screen size is 600px or less, set the ul.social
+to... */
+@media only screen and (max-width: 600px) {
+  ul.social {
+
+  }
+}
