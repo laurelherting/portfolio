@@ -12,6 +12,7 @@ const Work = () => (
         <div className="ten columns main-col">
           <h4>Harmon Software Solutions</h4>
           <p className="info">Software Developer</p>
+          <p className="date">March 2015 - Present</p>
           <p>
             Involved in end-to-end development of a new product from the ground
             up, using AWS, React, and Node.js.
