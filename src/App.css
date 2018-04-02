@@ -512,7 +512,7 @@ img {
   color: #95A3A3;
 }
 
-/* image */
+/* images */
 #portfolio .portfolioItem {
   margin: 0;
   padding: 36px 0 36px 0;
@@ -523,6 +523,15 @@ img {
 	color: transparent;
 }
 
+#portfolio .reactTransitions {
+  margin: 0;
+  padding: 36px 0 36px 0;
+  position: relative;
+  background: url(./assets/reactTransitions.png) no-repeat top center;
+  background-size: 150px;
+  background-position: center;
+	color: transparent;
+}
 
 /* ------------------------------------------------------------------ */
 /* Footer

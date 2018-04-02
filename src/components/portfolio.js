@@ -7,6 +7,8 @@ const Portfolio = () => (
         <h1>portfolio</h1>
       </div>
       <div className="portfolioItem" />
+      <br />
+      <div className="reactTransitions" />
     </section>
   </div>
 );
