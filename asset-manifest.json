@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.1658debb.css",
-  "main.css.map": "static/css/main.1658debb.css.map",
-  "main.js": "static/js/main.bbb075d8.js",
-  "main.js.map": "static/js/main.bbb075d8.js.map",
+  "main.css": "static/css/main.6bab8151.css",
+  "main.css.map": "static/css/main.6bab8151.css.map",
+  "main.js": "static/js/main.fa9c1a5a.js",
+  "main.js.map": "static/js/main.fa9c1a5a.js.map",
   "static/media/background.jpg": "static/media/background.909be85a.jpg",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
@@ -10,5 +10,6 @@
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/portfolioItem.png": "static/media/portfolioItem.39531e64.png",
-  "static/media/profilePic.png": "static/media/profilePic.2bbb203a.png"
+  "static/media/profilePic.png": "static/media/profilePic.2bbb203a.png",
+  "static/media/reactTransitions.png": "static/media/reactTransitions.1669994f.png"
 }
