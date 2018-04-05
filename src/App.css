@@ -509,8 +509,17 @@ img {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 48px;
-  color: #95A3A3;
+  color: #696969;
 }
+#portfolio .tooltip .tooltiptext {
+}
+
+#portfolio a {
+  font: 15px/21px 'opensans-semibold', sans-serif;
+  color: #696969;
+}
+
+#portfolio a:hover { color: #faa633; }
 
 /* images */
 #portfolio .portfolioItem {
