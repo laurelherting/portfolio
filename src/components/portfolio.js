@@ -9,7 +9,10 @@ const Portfolio = () => (
       <div className="portfolioItem" />
       <br />
       <div className="reactTransitions">
-        <a href="https://react-full-stack-list.herokuapp.com/">
+        <a
+          href="https://react-full-stack-list.herokuapp.com/"
+          title="Click here to view app deployed via Heroku"
+        >
           React Full Stack App
         </a>
       </div>
