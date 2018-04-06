@@ -511,15 +511,18 @@ img {
   margin-bottom: 48px;
   color: #696969;
 }
-#portfolio .tooltip .tooltiptext {
-}
 
 #portfolio a {
   font: 15px/21px 'opensans-semibold', sans-serif;
   color: #696969;
+
+  /*hides words and title*/
+  visibility: hidden;
 }
 
-#portfolio a:hover { color: #faa633; }
+#portfolio a:hover {
+  color: #faa633;
+}
 
 /* images */
 #portfolio .portfolioItem {
