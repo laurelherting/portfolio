@@ -516,8 +516,8 @@ img {
   font: 15px/21px 'opensans-semibold', sans-serif;
   color: #696969;
 
-  /*hides words and title*/
-  visibility: hidden;
+  /* hides words and title
+  visibility: hidden; */
 }
 
 #portfolio a:hover {
