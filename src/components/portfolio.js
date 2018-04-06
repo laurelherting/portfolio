@@ -7,14 +7,21 @@ const Portfolio = () => (
         <h1>portfolio</h1>
       </div>
       <div className="portfolioItem" />
+      <a
+        href="https://github.com/laurelherting/portfolio/"
+        title="Click to view code on GitHub"
+      >
+        <p>React Single-Page App</p>
+      </a>
       <br />
       <div className="reactTransitions">
         <a
           href="https://react-full-stack-list.herokuapp.com/"
-          title="Click here to view app deployed via Heroku"
+          title="Click to view Heroku deployed app"
         >
-          React Full Stack App
+          <p>React Full Stack App</p>
         </a>
+        <p>app</p>
       </div>
     </section>
   </div>
