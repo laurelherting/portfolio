@@ -32,14 +32,50 @@ and (max-width: 1024px) {
 to... */
 @media only screen and (max-width: 600px) {
   ul.social {
-
+    display: inline-flex;
+  }
+}
+/* corrects header name text */
+@media only screen and (max-width: 600px) {
+  header .banner-text h2 {
+    font-size: 3em;
   }
 }
 
+/* aligns header social links onto single line */
+@media only screen and (max-width: 600px) {
+ header .social li {
+   letter-spacing: 1.52em;
+  }
+}
 
+/* aligns footer social links onto single line */
+@media only screen and (max-width: 600px) {
+  .footer .social {
+    font-size: 2px;
+  }
+}
+/* condenses proflile pic */
 @media only screen and (max-width: 600px) {
   div #about .profilePic {
     width: 50px;
     height: 60px;
+  }
+}
+
+/* hides header top nav-bar */
+@media screen and (min-width: 0px)
+and (max-width: 400px) {
+  .wideDiv {
+    display: none;
+    min-height: 48px;
+    color: #FFF;
+    background-color: #7b7976;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
   }
 }
