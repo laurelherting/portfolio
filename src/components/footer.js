@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div>
-    <div className="row, footer">
+    <footer id="row, footer" className="footer">
       <ul className="social">
         <li>
           <a href="skype: +xxxxxxxxxx">
@@ -38,7 +38,7 @@ const Footer = () => (
           <i className="fa fa-chevron-circle-up" aria-hidden="true" />
         </a>
       </div>
-    </div>
+    </footer>
   </div>
 );
 

@@ -45,15 +45,16 @@ to... */
 
 /* aligns header social links onto single line */
 @media only screen and (max-width: 600px) {
- header .social li {
-   letter-spacing: 1.52em;
+  header .social li {
+    letter-spacing: 1.52em;
   }
 }
 
 /* aligns footer social links onto single line */
 @media only screen and (max-width: 600px) {
-  .footer .social {
-    font-size: 29px;
+  footer .social li {
+    font-size: 17.7px;
+    padding-left: 20px;
   }
 }
 
