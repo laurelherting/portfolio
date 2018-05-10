@@ -1,58 +1,105 @@
 /* Mobile Support */
+/* display on mobile screen */
 
-/* screenwidth less than 1024px */
+/* screenwidth less than 1024px
+-------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
-  /* header styles */
+  /* header styles
+  ------------------------------------------------------------------ */
   #navWide { display: block; }
 }
 
-
-/* screenwidth less than 900px */
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
-  /* header styles */
-  #nav-wrap.opaque { display: none; }
-  #navNarrow { display: none; }
+  /* header styles
+  ------------------------------------------------------------------ */
+
+}
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+  /* mobile navigation
+  -------------------------------------------------------------------- */
+
 }
 
 
-/* mobile wide/smaller tablets */
-@media only screen and (max-width: 767px) {
-  /* mobile navigation */
+/* hidden on larger screens */
+@media screen and (min-width: 401px)
+and (max-width: 1024px) {
+  #navNarrow { display: none; }
+  #nav-wrap.opaque { display: none; }
+}
 
-  /* Header Styles */
-  /* corrects name */
-  header .banner-text h2 {
-    font-size: 3em;
+ /* hidden on small screens */
+@media only screen and (max-width: 600px) {
+  div {
+    display: none;
   }
+}
 
-  /* aligns header social links onto single line */
-  header .social li {
-    letter-spacing: 1.52em;
-  }
-
-  ul.social {
-    display: inline-flex;
-  }
-
-  /* about section */
+@media only screen and (max-width: 600px) {
   div .columns.header-col {
     float: none;
   }
+}
 
+@media only screen and (max-width: 600px) {
+  ul.social {
+    display: inline-flex;
+  }
+}
+
+/* corrects header name text */
+@media only screen and (max-width: 600px) {
+  header .banner-text h2 {
+    font-size: 3em;
+  }
+}
+
+/* aligns header social links onto single line */
+@media only screen and (max-width: 600px) {
+  header .social li {
+    letter-spacing: 1.52em;
+  }
+}
+
+/* aligns footer social links onto single line */
+@media only screen and (max-width: 600px) {
+  footer .social li {
+    font-size: 17.7px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  /* About Section
+  ------------------------------------------------------------------- */
+/* condenses proflile pic */
   div #about .profilePic {
     width: 50px;
     height: 60px;
   }
 }
 
-  /* footer */
-  /* aligns footer social links onto single line */
-  footer .social li {
-    font-size: 17.7px;
-    padding-left: 20px;
+/* hides header top nav-bar */
+@media screen and (min-width: 0px)
+and (max-width: 400px) {
+  .wideDiv {
+    display: none;
+    min-height: 48px;
+    color: #FFF;
+    background-color: #7b7976;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
   }
-
-/* mobile narrow */
-@media only screen and (max-width: 480px) {
-
 }
