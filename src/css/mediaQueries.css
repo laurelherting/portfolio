@@ -1,18 +1,62 @@
-/* ==================================================================
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   09-12-2017
-/* ================================================================== */
+/* Mobile Support */
 
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
+/* screenwidth less than 1024px */
+@media only screen
+and (min-device-width : 320px)
+and (max-width: 1024px) {
+  /* header styles */
+  #navWide { display: block; }
+  #navNarrow {
+    display: none;
+  }
+}
 
-    /* header styles
-   ------------------------------------------------------------------ */
-   header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;
-      margin: 0 auto 12px auto;
-   }
+
+/* screenwidth less than 900px */
+@media only screen and (max-width: 900px) {
+  /* header styles */
+  #nav-wrap.opaque { display: none; }
+  #navNarrow { display: none; }
+}
+
+
+/* mobile wide/smaller tablets */
+@media only screen and (max-width: 767px) {
+  /* mobile navigation */
+
+  /* Header Styles */
+  /* corrects name */
+  header .banner-text h2 {
+    font-size: 3em;
+  }
+
+  /* aligns header social links onto single line */
+  header .social li {
+    letter-spacing: 1.52em;
+  }
+
+  ul.social {
+    display: inline-flex;
+  }
+
+  /* about section */
+  div .columns.header-col {
+    float: none;
+  }
+
+  div #about .profilePic {
+    width: 50px;
+    height: 60px;
+  }
+
+  /* footer */
+  /* aligns footer social links onto single line */
+  footer .social li {
+    font-size: 17.7px;
+    padding-left: 20px;
+  }
+
+/* mobile narrow */
+@media only screen and (max-width: 480px) {
+
 }
