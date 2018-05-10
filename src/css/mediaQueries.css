@@ -51,12 +51,3 @@ and (max-width: 1024px) {
 
   /* footer */
   /* aligns footer social links onto single line */
-  footer .social li {
-    font-size: 17.7px;
-    padding-left: 20px;
-  }
-
-/* mobile narrow */
-@media only screen and (max-width: 480px) {
-
-}
