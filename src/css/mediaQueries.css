@@ -43,6 +43,12 @@ and (max-width: 1024px) {
 }
 
 @media only screen and (max-width: 600px) {
+  .fa-chevron-down {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   div .columns.header-col {
     float: none;
   }
