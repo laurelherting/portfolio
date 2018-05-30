@@ -22,6 +22,15 @@ const Portfolio = () => (
           <p>React Full Stack App</p>
         </a>
         <p>app</p>
+        <br />
+        <div className="season-quotes">
+          <a
+            href="https://season-quotes.herokuapp.com/"
+            title="Click to view Heroku deployed app"
+          >
+            <p>ExpressJS React App</p>
+          </a>
+        </div>
       </div>
     </section>
   </div>
