@@ -29,6 +29,7 @@
     "precommit": "lint-staged"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.8.0",
     "eslint-plugin-import": "^2.8.0",
@@ -46,7 +47,6 @@
     "carousel": "^0.0.3",
     "css-loader": "^0.28.7",
     "dedupe": "^2.1.0",
-    "eslint": "3.17.1",
     "file-loader": "^0.11.2",
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.1.0",
