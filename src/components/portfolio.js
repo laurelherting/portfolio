@@ -17,7 +17,7 @@ const Portfolio = () => (
       <div className="reactTransitions" />
       <a
         href="https://react-full-stack-list.herokuapp.com/"
-        title="Click to view Heroku deployed app"
+        title="Coming soon - Click to view Heroku deployed app"
       >
         <p>React Full Stack App</p>
       </a>
