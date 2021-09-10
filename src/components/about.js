@@ -25,7 +25,7 @@ const About = () => (
           </p>
           <h3>Contact Details</h3>
           <p className="address">
-            <span>Denver, Colorado USA</span>
+            <span>Research Triangle Park, North Carolina USA</span>
           </p>
         </div>
       </div>
