@@ -16,7 +16,7 @@ const Interests = () => (
             and Express.js.
           </p>
           <p className="interest-summary">
-            Interested in functional programming.
+            AWS Certified. Interested in functional programming.
           </p>
         </div>
         <hr />
